@@ -1,0 +1,33 @@
+This Mathematica script is for generating spreadsheet files of the information about postdoc positions you are interested.
+The information is from the Job searching function in http://inspirehep.net
+To make the spreadsheet with columns of application links, institution names, fields of positions, deadlines for institutions you are interested in 
+
+1. go to http://inspirehep.net/collection/Jobs 
+2. search postdoc positions with your criteria
+3. right click the mouse and select "View Page Source" to switch the search result into the source code format
+4. copy the text of positions from the source code page as follows: 
+               1.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-11:</strong> 
+<a href= http://inspirehep.net/record/1697759>Theoretical Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Beijing%2C+Inst.+Theor.+Phys.%22&amp;of=hd">Beijing, Inst. Theor. Phys.</a>
+ - Asia)
+<strong>[Deadline: 2018-12-15]</strong>
+<br />
+......
+......
+
+Then create a blank file and paste the text
+The text format should be like in inspire_raw_data_20181025.txt
+
+5. open the Mathematica script, then set the the input filename and output filename in the Mathematica script
+The input filename = the file you paste the text in step 4
+The output filename = xxxx.xlsx
+
+5. run the Mathematica, then you will find an output .xlsx file in the same directory
+
+If anly questions, please contact 
+botingw@smu.edu
+
+
+ 

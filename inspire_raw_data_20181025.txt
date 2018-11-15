@@ -1,0 +1,1261 @@
+                1.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-25:</strong> 
+<a href= http://inspirehep.net/record/1700163>Postdoc Positions in Nuclear Theory at JLab</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Jefferson+Lab%22&amp;of=hd">Jefferson Lab</a>
+ - North America)
+<strong>[Deadline: 2018-12-02]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-lat, hep-ph, hep-th, nucl-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1700163?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1700161"></abbr>
+
+                2.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-24:</strong> 
+<a href= http://inspirehep.net/record/1700161>Theoretical High Energy Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Nordita%22&amp;of=hd">Nordita</a>
+ - Europe)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+gr-qc, hep-lat, hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1700161?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699875"></abbr>
+
+                3.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-23:</strong> 
+<a href= http://inspirehep.net/record/1699875>Theoretical Particle Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22EPFL%2C+Lausanne%2C+LPTP%22&amp;of=hd">EPFL, Lausanne, LPTP</a>
+ - Europe)
+<strong>[Deadline: 2018-12-03]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699875?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699821"></abbr>
+
+                4.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-23:</strong> 
+<a href= http://inspirehep.net/record/1699821>String Theory, Integrability, AdS/CFT</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22IIP%2C+Brazil%22&amp;of=hd">IIP, Brazil</a>
+ - South America)
+<strong>[Deadline: 2019-01-11]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699821?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699642"></abbr>
+
+                5.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-23:</strong> 
+<a href= http://inspirehep.net/record/1699642>Theoretical High-Energy Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Munich%2C+Tech.+U.%22&amp;of=hd">Munich, Tech. U.</a>
+ - Europe)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699642?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699427"></abbr>
+
+                6.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-22:</strong> 
+<a href= http://inspirehep.net/record/1699427>Theoretical Physics (AJO-12424)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Trinity+Coll.%2C+Dublin%22&amp;of=hd">Trinity Coll., Dublin</a>
+ - Europe)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699427?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699365"></abbr>
+
+                7.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-21:</strong> 
+<a href= http://inspirehep.net/record/1699365>Particle Physics (S&amp;E-12876)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Manchester+U.%22&amp;of=hd">Manchester U.</a>
+ - Europe)
+<strong>[Deadline: 2018-11-30]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699365?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699364"></abbr>
+
+                8.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-21:</strong> 
+<a href= http://inspirehep.net/record/1699364>Quantum Field Theory and Condensed Matter Physics (AJO-3153)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Ariel+U.+Ctr.%2C+Samaria%22&amp;of=hd">Ariel U. Ctr., Samaria</a>
+ - Europe)
+<strong>[Deadline: 2019-05-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+cond-mat, hep-lat, hep-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699364?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699340"></abbr>
+
+                9.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-19:</strong> 
+<a href= http://inspirehep.net/record/1699340>Theoretical Nuclear Physics (1493)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Brookhaven+Natl.+Lab.%22&amp;of=hd">Brookhaven Natl. Lab.</a>
+ - North America)
+<strong>[Deadline: 2018-11-15]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+nucl-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699340?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699339"></abbr>
+
+                10.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-19:</strong> 
+<a href= http://inspirehep.net/record/1699339>High Energy Theoretical Physics (AJO-12479)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22City+Coll.%2C+N.Y.%22&amp;of=hd">City Coll., N.Y.</a> / <a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Lehman+Coll.%22&amp;of=hd">Lehman Coll.</a> / <a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Haifa+U.%22&amp;of=hd">Haifa U.</a>
+ - North America)
+<strong>[Deadline: 2018-12-15]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699339?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699297"></abbr>
+
+                11.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-19:</strong> 
+<a href= http://inspirehep.net/record/1699297>String Theory</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22IPhT%2C+Saclay%22&amp;of=hd">IPhT, Saclay</a>
+ - Europe)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699297?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699234"></abbr>
+
+                12.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-19:</strong> 
+<a href= http://inspirehep.net/record/1699234>Postdoctoral position at Fudan University, China</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Fudan+U.%22&amp;of=hd">Fudan U.</a>
+ - Asia)
+<strong>[Deadline: 2018-12-16]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-lat, hep-ph, hep-th, nucl-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699234?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699184"></abbr>
+
+                13.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-18:</strong> 
+<a href= http://inspirehep.net/record/1699184>Postdoctoral Research Fellow Nuclear Theory</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22TRIUMF%22&amp;of=hd">TRIUMF</a>
+ - North America)
+<strong>[Deadline: 2018-11-15]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+nucl-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699184?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699182"></abbr>
+
+                14.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-18:</strong> 
+<a href= http://inspirehep.net/record/1699182>Particle Physics Phenomenology</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Lund+U.%22&amp;of=hd">Lund U.</a>
+ - Europe)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699182?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699124"></abbr>
+
+                15.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-18:</strong> 
+<a href= http://inspirehep.net/record/1699124>Postdoctoral position “Physics of the Early Universe”</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Louvain+U.%2C+CP3%22&amp;of=hd">Louvain U., CP3</a>
+ - Europe)
+<strong>[Deadline: 2018-10-31]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699124?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699121"></abbr>
+
+                16.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-18:</strong> 
+<a href= http://inspirehep.net/record/1699121>Theoretical Particle Physics (AJO-12463)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Freiburg+U.%22&amp;of=hd">Freiburg U.</a>
+ - Europe)
+<strong>[Deadline: 2018-11-30]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699121?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699120"></abbr>
+
+                17.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-18:</strong> 
+<a href= http://inspirehep.net/record/1699120>Theoretical Particle Physics (AJO-12465)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Freiburg+U.%22&amp;of=hd">Freiburg U.</a>
+ - Europe)
+<strong>[Deadline: 2018-11-30]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699120?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699114"></abbr>
+
+                18.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-18:</strong> 
+<a href= http://inspirehep.net/record/1699114>Particle Theory (AJO-12461)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Munich%2C+Tech.+U.%22&amp;of=hd">Munich, Tech. U.</a>
+ - Europe)
+<strong>[Deadline: 2019-01-15]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699114?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699110"></abbr>
+
+                19.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-18:</strong> 
+<a href= http://inspirehep.net/record/1699110>Gravitational Physics / Particle Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Hua-Zhong+U.+Sci.+Tech.%22&amp;of=hd">Hua-Zhong U. Sci. Tech.</a>
+ - Asia)
+<strong>[Deadline: 2019-03-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, gr-qc, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699110?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1699107"></abbr>
+
+                20.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-18:</strong> 
+<a href= http://inspirehep.net/record/1699107>Experimental Particle Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Prague%2C+Inst.+Phys.%22&amp;of=hd">Prague, Inst. Phys.</a>
+ - Europe)
+<strong>[Deadline: 2018-11-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-ex, hep-lat, hep-ph, nucl-ex, physics.acc-phys, physics.ins-det, physics-other
+
+ - <a href="/search?ln=en&amp;cc=Experiments&amp;p=119__a%3ACERN-LHC-ATLAS&amp;of=hd">CERN-LHC-ATLAS</a>
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1699107?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698990"></abbr>
+
+                21.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-17:</strong> 
+<a href= http://inspirehep.net/record/1698990>Lederman Fellowship (AJO-12331)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Fermilab%22&amp;of=hd">Fermilab</a>
+ - South America)
+<strong>[Deadline: 2018-11-21]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-ex, hep-ph, physics-other
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698990?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698989"></abbr>
+
+                22.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-17:</strong> 
+<a href= http://inspirehep.net/record/1698989>Particle and Astroparticle Phenomenology (AJO-12421)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Padua+U.%22&amp;of=hd">Padua U.</a> / <a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22INFN%2C+Padua%22&amp;of=hd">INFN, Padua</a>
+ - Europe)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698989?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698861"></abbr>
+
+                23.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-17:</strong> 
+<a href= http://inspirehep.net/record/1698861>Post-Doctoral Research Associates</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Old+Dominion+U.+%28main%29%22&amp;of=hd">Old Dominion U. (main)</a>
+ - North America)
+<strong>[Deadline: 2018-11-09]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+nucl-ex, nucl-th, physics-other, quant
+
+ - <a href="/search?ln=en&amp;cc=Experiments&amp;p=119__a%3ALattice QCD calculations&amp;of=hd">Lattice QCD calculations</a>
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698861?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698860"></abbr>
+
+                24.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-17:</strong> 
+<a href= http://inspirehep.net/record/1698860>Gravity, Quantum Geometry and Field Theory</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Okinawa+Inst.+Sci.+Tech.%22&amp;of=hd">Okinawa Inst. Sci. Tech.</a>
+ - Asia)
+<strong>[Deadline: 2018-12-21]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+gr-qc, hep-th, math-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698860?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698858"></abbr>
+
+                25.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-16:</strong> 
+<a href= http://inspirehep.net/record/1698858>Joint Postdoc in High Energy Phenomenology at University of Toronto / Perimeter Institute</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Perimeter+Inst.+Theor.+Phys.%22&amp;of=hd">Perimeter Inst. Theor. Phys.</a> / <a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22U.+Toronto+%28main%29%22&amp;of=hd">U. Toronto (main)</a>
+ - North America)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph
+
+                26.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-16:</strong> 
+<a href= http://inspirehep.net/record/1698849>Theoretical Particle Physics (AJO-12103)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Oregon+U.%22&amp;of=hd">Oregon U.</a>
+ - North America)
+<strong>[Deadline: 2018-11-30]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-th, hep-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698849?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698845"></abbr>
+
+                27.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-16:</strong> 
+<a href= http://inspirehep.net/record/1698845>Postdoctoral Associate in Particle Theory</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22U.+Colorado%2C+Boulder%22&amp;of=hd">U. Colorado, Boulder</a>
+ - North America)
+<strong>[Deadline: 2018-12-03]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-lat, hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698845?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698844"></abbr>
+
+                28.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-16:</strong> 
+<a href= http://inspirehep.net/record/1698844>Theoretical High-Energy Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Stockholm+U.%22&amp;of=hd">Stockholm U.</a>
+ - Europe)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698844?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698837"></abbr>
+
+                29.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-16:</strong> 
+<a href= http://inspirehep.net/record/1698837>Particle Theory / Cosmology (ajo-12171)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Johns+Hopkins+U.%22&amp;of=hd">Johns Hopkins U.</a>
+ - North America)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-th, gr-qc
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698837?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698792"></abbr>
+
+                30.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-16:</strong> 
+<a href= http://inspirehep.net/record/1698792>Theoretical Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Kyoto+U.%2C+Yukawa+Inst.%2C+Kyoto%22&amp;of=hd">Kyoto U., Yukawa Inst., Kyoto</a>
+ - Asia)
+<strong>[Deadline: 2018-12-26]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, gr-qc, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698792?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698370"></abbr>
+
+                31.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-15:</strong> 
+<a href= http://inspirehep.net/record/1698370>Post-doctoral position in Quantum Computation Applications in Particle, Nuclear and Condensed-Matter Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Maryland+U.%2C+College+Park%22&amp;of=hd">Maryland U., College Park</a>
+ - North America)
+<strong>[Deadline: 2018-11-30]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+cond-mat, gr-qc, hep-lat, hep-ph, hep-th, nucl-th, quant
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698370?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698362"></abbr>
+
+                32.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-15:</strong> 
+<a href= http://inspirehep.net/record/1698362>Theoretical High Energy Physics (1756671)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22University+Coll.+London%22&amp;of=hd">University Coll. London</a>
+ - Europe)
+<strong>[Deadline: 2018-11-22]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698362?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698355"></abbr>
+
+                33.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-15:</strong> 
+<a href= http://inspirehep.net/record/1698355>Postdoctoral Position in Theoretical Heavy-Ion Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Goethe+U.%2C+Frankfurt+%28main%29%22&amp;of=hd">Goethe U., Frankfurt (main)</a>
+ - Europe)
+<strong>[Deadline: 2018-12-10]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+nucl-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698355?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698313"></abbr>
+
+                34.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-15:</strong> 
+<a href= http://inspirehep.net/record/1698313>Postdoctoral Position Theoretical Particle Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Wurzburg+U.%22&amp;of=hd">Wurzburg U.</a>
+ - Europe)
+<strong>[Deadline: 2018-11-10]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698313?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698171"></abbr>
+
+                35.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-12:</strong> 
+<a href= http://inspirehep.net/record/1698171>String Theory, Quantum Field Theory, Cosmology &amp; Gravitational Waves</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22KU+Leuven%2C+Dept.+Phys.+Astron.%22&amp;of=hd">KU Leuven, Dept. Phys. Astron.</a>
+ - Europe)
+<strong>[Deadline: 2019-01-14]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, gr-qc, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698171?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698113"></abbr>
+
+                36.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-12:</strong> 
+<a href= http://inspirehep.net/record/1698113>Theoretical Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Munich%2C+Max+Planck+Inst.%22&amp;of=hd">Munich, Max Planck Inst.</a>
+ - Europe)
+<strong>[Deadline: 2018-12-13]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-ph, hep-th, math-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698113?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1698070"></abbr>
+
+                37.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-12:</strong> 
+<a href= http://inspirehep.net/record/1698070>Spacetime and Entanglement (AJO 12375)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Tsinghua+U.%2C+Beijing%22&amp;of=hd">Tsinghua U., Beijing</a>
+ - Asia)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1698070?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697942"></abbr>
+
+                38.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-11:</strong> 
+<a href= http://inspirehep.net/record/1697942>Theoretical Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Madrid%2C+IFT%22&amp;of=hd">Madrid, IFT</a>
+ - Europe)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-lat, hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697942?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697760"></abbr>
+
+                39.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-11:</strong> 
+<a href= http://inspirehep.net/record/1697760>Postdoctoral Fellow</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Milan+U.%22&amp;of=hd">Milan U.</a>
+ - Europe)
+<strong>[Deadline: 2018-12-10]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+cs, hep-ph, hep-th, math-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697760?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697759"></abbr>
+
+                40.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-11:</strong> 
+<a href= http://inspirehep.net/record/1697759>Theoretical Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Beijing%2C+Inst.+Theor.+Phys.%22&amp;of=hd">Beijing, Inst. Theor. Phys.</a>
+ - Asia)
+<strong>[Deadline: 2018-12-15]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, cond-mat, gr-qc, hep-ex, hep-lat, hep-ph, hep-th, math-ph, nucl-ex, nucl-th, physics.acc-phys, physics.ins-det, physics-other, quant
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697759?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697657"></abbr>
+
+                41.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-11:</strong> 
+<a href= http://inspirehep.net/record/1697657>Postdoctoral Research Associate</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Queen%27s+U.%2C+Kingston%22&amp;of=hd">Queen's U., Kingston</a>
+ - North America)
+<strong>[Deadline: 2018-11-30]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-ex, hep-ph, physics.ins-det
+
+ - <a href="/search?ln=en&amp;cc=Experiments&amp;p=119__a%3ANEWS-G&amp;of=hd">NEWS-G</a>
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697657?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697654"></abbr>
+
+                42.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-10:</strong> 
+<a href= http://inspirehep.net/record/1697654>James Arthur Postdoctoral Fellowship</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22New+York+U.%2C+CCPP%22&amp;of=hd">New York U., CCPP</a>
+ - North America)
+<strong>[Deadline: 2018-11-25]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+gr-qc, hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697654?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697651"></abbr>
+
+                43.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-10:</strong> 
+<a href= http://inspirehep.net/record/1697651>Postdoc position in Geometric methods for Deep Learning and Machine Learning</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Romanian+Inst.+Sci.+Tech.%22&amp;of=hd">Romanian Inst. Sci. Tech.</a>
+ - Europe)
+<strong>[Deadline: 2018-11-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, cond-mat, cs, gr-qc, hep-ex, hep-lat, hep-ph, hep-th, math, math-ph, nucl-ex, nucl-th, physics.acc-phys, physics.ins-det, physics-other, quant
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697651?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697650"></abbr>
+
+                44.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-10:</strong> 
+<a href= http://inspirehep.net/record/1697650>Theoretical High Energy Physics (AJO-12340)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Florida+U.%2C+Inst.+Fund.+Theor.%22&amp;of=hd">Florida U., Inst. Fund. Theor.</a>
+ - North America)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697650?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697569"></abbr>
+
+                45.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-10:</strong> 
+<a href= http://inspirehep.net/record/1697569>Elementary Particle Theory (AJO 12333)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22TIFR%2C+Mumbai%2C+Dept.+Theor.+Phys.%22&amp;of=hd">TIFR, Mumbai, Dept. Theor. Phys.</a>
+ - Asia)
+<strong>[Deadline: 2018-11-15]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697569?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697452"></abbr>
+
+                46.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-09:</strong> 
+<a href= http://inspirehep.net/record/1697452>Precision QCD Calculations</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Nankai+U.%22&amp;of=hd">Nankai U.</a>
+ - Asia)
+<strong>[Deadline: 2019-02-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697452?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697379"></abbr>
+
+                47.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-09:</strong> 
+<a href= http://inspirehep.net/record/1697379>Theoretical and Experimental Cosmology and Particle Astrophysics (AJO-12310)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Taiwan%2C+Natl.+Taiwan+U.%22&amp;of=hd">Taiwan, Natl. Taiwan U.</a>
+ - Asia)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Junior, Postdoc</span> - 
+astro-ph, gr-qc, hep-ex, hep-ph, hep-th, quant
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697379?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697378"></abbr>
+
+                48.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-09:</strong> 
+<a href= http://inspirehep.net/record/1697378>String Theory</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Harish-Chandra+Res.+Inst.%22&amp;of=hd">Harish-Chandra Res. Inst.</a>
+ - Asia)
+<strong>[Deadline: 2018-12-15]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697378?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697365"></abbr>
+
+                49.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-09:</strong> 
+<a href= http://inspirehep.net/record/1697365>Theoretical High Energy Physics (AJO-12309)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Zhejiang+U.%2C+Inst.+Mod.+Phys.%22&amp;of=hd">Zhejiang U., Inst. Mod. Phys.</a>
+ - Asia)
+<strong>[Deadline: 2019-04-08]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697365?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697270"></abbr>
+
+                50.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-09:</strong> 
+<a href= http://inspirehep.net/record/1697270>Yale Mossman Fellowship (AJO-12228)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Yale+U.%22&amp;of=hd">Yale U.</a>
+ - North America)
+<strong>[Deadline: 2018-11-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, cond-mat, cs, gr-qc, hep-ex, hep-lat, hep-ph, hep-th, math, math-ph, nucl-ex, nucl-th, physics.acc-phys, physics.ins-det, physics-other, quant-ph
+
+                51.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-08:</strong> 
+<a href= http://inspirehep.net/record/1697269>High Energy Theory (AJO-12304)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Florida+State+U.%22&amp;of=hd">Florida State U.</a>
+ - North America)
+<strong>[Deadline: 2018-12-07]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697269?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697229"></abbr>
+
+                52.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-08:</strong> 
+<a href= http://inspirehep.net/record/1697229>High Energy Heavy Ion Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Eotvos+U.%22&amp;of=hd">Eotvos U.</a>
+ - Europe)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ex, hep-ph, nucl-ex, nucl-th
+
+ - <a href="/search?ln=en&amp;cc=Experiments&amp;p=119__a%3ABNL-RHIC-STAR&amp;of=hd">BNL-RHIC-STAR</a>
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697229?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697094"></abbr>
+
+                53.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-08:</strong> 
+<a href= http://inspirehep.net/record/1697094>Nathan Isgur Fellowship in Nuclear Theory</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Jefferson+Lab%22&amp;of=hd">Jefferson Lab</a>
+ - North America)
+<strong>[Deadline: 2018-12-02]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph, nucl-th, hep-lat
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697094?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697068"></abbr>
+
+                54.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-05:</strong> 
+<a href= http://inspirehep.net/record/1697068>Postdoctoral position in the field of ultracold atomic gases and nuclear theory</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Warsaw+U.+of+Tech.%22&amp;of=hd">Warsaw U. of Tech.</a>
+ - Europe)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, cond-mat, nucl-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697068?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1697061"></abbr>
+
+                55.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-05:</strong> 
+<a href= http://inspirehep.net/record/1697061>Particle Physics Phenomenology</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22INFN%2C+Pavia%22&amp;of=hd">INFN, Pavia</a>
+ - Europe)
+<strong>[Deadline: 2018-11-15]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1697061?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696932"></abbr>
+
+                56.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-04:</strong> 
+<a href= http://inspirehep.net/record/1696932>SAIFR-Perimeter Fellowship</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22ICTP-SAIFR%2C+Sao+Paulo%22&amp;of=hd">ICTP-SAIFR, Sao Paulo</a> / <a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Perimeter+Inst.+Theor.+Phys.%22&amp;of=hd">Perimeter Inst. Theor. Phys.</a>
+ - South America)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, cond-mat, cs, gr-qc, hep-ex, hep-ph, hep-th, math, math-ph, nucl-th, physics-other, quant-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696932?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696871"></abbr>
+
+                57.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-04:</strong> 
+<a href= http://inspirehep.net/record/1696871>High Energy Theory</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Helsinki+U.%22&amp;of=hd">Helsinki U.</a>
+ - Europe)
+<strong>[Deadline: 2018-11-15]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-lat, hep-ph, nucl-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696871?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696867"></abbr>
+
+                58.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-04:</strong> 
+<a href= http://inspirehep.net/record/1696867>YOUNG SCIENTIST TRAINING PROGRAM (YST) 2019-1</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22APCTP%2C+Pohang%22&amp;of=hd">APCTP, Pohang</a>
+ - Asia)
+<strong>[Deadline: 2018-11-15]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, cond-mat, cs, hep-ex, hep-lat, hep-ph, nucl-ex, physics.acc-phys, physics.ins-det, physics-other, quant-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696867?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696785"></abbr>
+
+                59.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-03:</strong> 
+<a href= http://inspirehep.net/record/1696785>Cosmology</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Chile+U.%2C+Beauchef%22&amp;of=hd">Chile U., Beauchef</a> / <a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22U.+Chile%2C+Santiago%22&amp;of=hd">U. Chile, Santiago</a>
+ - South America)
+<strong>[Deadline: 2018-10-10]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696785?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696782"></abbr>
+
+                60.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-03:</strong> 
+<a href= http://inspirehep.net/record/1696782>QCD Parton Shower Generators (AJO-12222)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Oxford+U.%22&amp;of=hd">Oxford U.</a>
+ - Europe)
+<strong>[Deadline: 2018-12-03]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696782?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696669"></abbr>
+
+                61.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-02:</strong> 
+<a href= http://inspirehep.net/record/1696669>Gravitational Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22ICC%2C+Barcelona+U.%22&amp;of=hd">ICC, Barcelona U.</a>
+ - Europe)
+<strong>[Deadline: 2018-11-30]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+gr-qc, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696669?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696612"></abbr>
+
+                62.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-02:</strong> 
+<a href= http://inspirehep.net/record/1696612>Theoretical and Mathematical Physics (20306)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22INFN+Trieste%22&amp;of=hd">INFN Trieste</a>
+ - Europe)
+<strong>[Deadline: 2018-11-15]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-th, math-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696612?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696605"></abbr>
+
+                63.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-02:</strong> 
+<a href= http://inspirehep.net/record/1696605>Theoretical Particle Cosmology (AJO-12223)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Pennsylvania+U.%22&amp;of=hd">Pennsylvania U.</a>
+ - North America)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696605?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696603"></abbr>
+
+                64.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-02:</strong> 
+<a href= http://inspirehep.net/record/1696603>Particle Physics Phenomenology (AJO-11952)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Zurich+U.%22&amp;of=hd">Zurich U.</a>
+ - Europe)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696603?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696602"></abbr>
+
+                65.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-02:</strong> 
+<a href= http://inspirehep.net/record/1696602>Strongly Coupled Field Theories</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Dresden%2C+Max+Planck+Inst.%22&amp;of=hd">Dresden, Max Planck Inst.</a>
+ - Europe)
+<strong>[Deadline: 2018-11-15]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+cond-mat, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696602?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696574"></abbr>
+
+                66.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-02:</strong> 
+<a href= http://inspirehep.net/record/1696574>Astroparticle Physics (1619/0818F)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Sydney+U.%22&amp;of=hd">Sydney U.</a>
+ - Australasia)
+<strong>[Deadline: 2018-10-31]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696574?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696449"></abbr>
+
+                67.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-01:</strong> 
+<a href= http://inspirehep.net/record/1696449>FAPESP Positions at ICTP-SAIFR</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22ICTP-SAIFR%2C+Sao+Paulo%22&amp;of=hd">ICTP-SAIFR, Sao Paulo</a>
+ - South America)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, cond-mat, cs, gr-qc, hep-ex, hep-ph, hep-th, math, math-ph, nucl-th, physics-other, quant
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696449?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696424"></abbr>
+
+                68.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-01:</strong> 
+<a href= http://inspirehep.net/record/1696424>Theoretical High Energy Physics (326758 / AJO-12113)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Minnesota+U.%22&amp;of=hd">Minnesota U.</a>
+ - North America)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696424?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696417"></abbr>
+
+                69.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-01:</strong> 
+<a href= http://inspirehep.net/record/1696417>String Theory and Related Areas</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Turin+U.%22&amp;of=hd">Turin U.</a>
+ - Europe)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696417?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696416"></abbr>
+
+                70.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-01:</strong> 
+<a href= http://inspirehep.net/record/1696416>High Energy Theory (12569BR)</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Kansas+U.%22&amp;of=hd">Kansas U.</a>
+ - North America)
+<strong>[Deadline: 2018-10-15]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696416?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696381"></abbr>
+
+                71.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-01:</strong> 
+<a href= http://inspirehep.net/record/1696381>Particle/Astroparticle Physics</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Frascati%22&amp;of=hd">Frascati</a>
+ - Europe)
+<strong>[Deadline: 2018-11-15]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-ph, astro-ph
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696381?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696375"></abbr>
+
+                72.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-01:</strong> 
+<a href= http://inspirehep.net/record/1696375>Condensed Matter Theory and Holographic Duality</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Shanghai+Jiaotong+U.%22&amp;of=hd">Shanghai Jiaotong U.</a>
+ - Asia)
+<strong>[Deadline: 2018-12-31]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+cond-mat, hep-lat, hep-th, quant
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696375?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696374"></abbr>
+
+                73.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-10-01:</strong> 
+<a href= http://inspirehep.net/record/1696374>Theoretical Cosmology</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Potsdam%2C+Max+Planck+Inst.%22&amp;of=hd">Potsdam, Max Planck Inst.</a>
+ - Europe)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+astro-ph, gr-qc, hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696374?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696297"></abbr>
+
+                74.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-09-29:</strong> 
+<a href= http://inspirehep.net/record/1696297>Theoretical High-Energy Physics, Gravity and Cosmology</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22APC%2C+Paris%22&amp;of=hd">APC, Paris</a>
+ - Europe)
+<strong>[Deadline: 2018-11-30]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-th
+
+
+<div class="moreinfo"><span class="moreinfo"><a href="/record/1696297?ln=en" class="moreinfo">Detailed record</a></span><!--not showing citations links--></div></td></tr>
+                <tr><td valign="top" align="right" style="white-space: nowrap;">
+                    <abbr class="unapi-id" title="1696292"></abbr>
+
+                75.
+               </td><td valign="top"><div class="record_body">
+<strong>2018-09-28:</strong> 
+<a href= http://inspirehep.net/record/1696292>High Energy Theory/Cosmology</a>
+(<a href=" /search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Pennsylvania+U.%22&amp;of=hd">Pennsylvania U.</a>
+ - North America)
+<strong>[Deadline: 2018-12-01]</strong>
+<br />
+
+<span style='text-transform: capitalize;'>Postdoc</span> - 
+hep-th
+
+

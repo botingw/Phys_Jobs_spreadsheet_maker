@@ -1,0 +1,1712 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     74273,       1704]
+NotebookOptionsPosition[     72520,       1640]
+NotebookOutlinePosition[     72846,       1655]
+CellTagsIndexPosition[     72803,       1652]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"20171109", ":", " ", 
+     RowBox[{"version", " ", "5"}], ":", " ", 
+     RowBox[{
+     "delete", " ", "the", " ", "user", " ", "define", " ", "function", " ", 
+      "value", " ", "part"}]}], ",", " ", 
+    RowBox[{
+    "ReadUserFunction", " ", "will", " ", "be", " ", "in", " ", "charge", " ",
+      "of", " ", "it"}]}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"20171128", ":", " ", "\[IndentingNewLine]", 
+     RowBox[{"change", " ", "hist", " ", "xmin"}]}], ",", " ", 
+    RowBox[{"xmax", " ", "as", " ", "zmin"}], ",", " ", 
+    RowBox[{"zmax", " ", "of", " ", "color", " ", "palette"}], ",", " ", 
+    RowBox[{"delete", " ", "color", " ", "percentage"}], ",", " ", 
+    RowBox[{
+    "job", " ", "id", " ", "could", " ", "be", " ", "string", 
+     "\[IndentingNewLine]", "no", " ", "ColorSeperator", " ", "anymore", 
+     "\[IndentingNewLine]", "add", " ", "descriptions", " ", "for", " ", 
+     "Jobid"}]}], " ", "\[IndentingNewLine]", "\[IndentingNewLine]", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"readschoollist", "[", 
+    RowBox[{"configDirin_", ",", "configfilenamein_"}], "]"}], ":=", "\n", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"configDir", "=", "configDirin"}], ",", 
+       RowBox[{"configfilename", "=", "configfilenamein"}], ",", "\n", 
+       "JobidTag", ",", "PDFnameTag", ",", "FigureTypeTag", ",", 
+       "FigureFlagTag", ",", "ExptidTypeTag", ",", "ExptidFlagTag", ",", 
+       "CorrelationArgTypeTag", ",", "CorrelationArgFlagTag", ",", 
+       "UserArgNameTag", ",", "UserArgValueTag", ",", "\n", 
+       "XQfigureXrangeTag", ",", "XQfigureYrangeTag", ",", 
+       "Hist1figureNbinTag", ",", "Hist1figureXrangeTag", ",", 
+       "Hist1figureYrangeTag", ",", "ColorSeperatorTag", ",", "\n", "SizeTag",
+        ",", "HighlightTypeTag", ",", "HighlightModeTag", ",", 
+       "HighlightMode1Tag", ",", "HighlightMode2Tag", ",", "\n", "Jobid", ",",
+        "PDFname", ",", "FigureType", ",", "FigureFlag", ",", "ExptidType", 
+       ",", "ExptidFlag", ",", "CorrelationArgType", ",", 
+       "CorrelationArgFlag", ",", "UserArgName", ",", "UserArgValue", ",", 
+       "\n", "XQfigureXrange", ",", "XQfigureYrange", ",", "Hist1figureNbin", 
+       ",", "Hist1figureXrange", ",", "Hist1figureYrange", ",", 
+       "ColorSeperator", ",", "\n", "Size", ",", "HighlightType", ",", 
+       "HighlightMode", ",", "HighlightMode1", ",", "HighlightMode2", ",", 
+       "\n", "itag", ",", "s", ",", "output", ",", "output2", ",", "output3", 
+       ",", "\[IndentingNewLine]", "ColorPaletterange", ",", 
+       "ColorPaletterangeTag", ",", "JobDescription", ",", 
+       "JobDescriptionTag"}], "\n", "}"}], ",", "\n", "\n", 
+     RowBox[{
+      RowBox[{
+      "JobidTag", "=", "\"\<Job ID (copy from the counter file)\>\""}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"JobDescriptionTag", "=", "\"\<Job description\>\""}], ";", 
+      RowBox[{"(*", "20171128", "*)"}], "\n", 
+      RowBox[{"PDFnameTag", "=", "\"\<PDF set\>\""}], ";", "\n", 
+      RowBox[{"FigureTypeTag", "=", "\"\<Type\>\""}], ";", "\n", 
+      RowBox[{"FigureFlagTag", "=", "\"\<Flag\>\""}], ";", "\n", 
+      RowBox[{"ExptidTypeTag", "=", "\"\<Expt. ID\>\""}], ";", "\n", 
+      RowBox[{"ExptidFlagTag", "=", "\"\<Expt. Flag\>\""}], ";", "\n", 
+      RowBox[{"CorrelationArgTypeTag", "=", "\"\<Type\>\""}], ";", "\n", 
+      RowBox[{"CorrelationArgFlagTag", "=", "\"\<Flag\>\""}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"(*", 
+       RowBox[{
+        RowBox[{"20171109", ":", " ", 
+         RowBox[{
+         "delete", " ", "the", " ", "user", " ", "define", " ", "function", 
+          " ", "value", " ", "part"}]}], ",", " ", 
+        RowBox[{
+        "ReadUserFunction", " ", "will", " ", "be", " ", "in", " ", "charge", 
+         " ", "of", " ", "it"}]}], "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"(*", "\n", 
+       RowBox[{
+        RowBox[{"UserArgNameTag", "=", "\"\<Name\>\""}], ";", "\n", 
+        RowBox[{"UserArgValueTag", "=", "\"\<Values\>\""}], ";"}], 
+       "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", "\n", 
+      RowBox[{"XQfigureXrangeTag", "=", "\"\<xmin,   xmax\>\""}], ";", "\n", 
+      RowBox[{"XQfigureYrangeTag", "=", "\"\<mumin, mumax\>\""}], ";", "\n", 
+      RowBox[{"ColorPaletterangeTag", "=", "\"\<zmin, zmax\>\""}], ";", 
+      RowBox[{"(*", "20171128", "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"Hist1figureNbinTag", "=", "\"\<Number of bins\>\""}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"(*", "\n", 
+       RowBox[{
+        RowBox[{"Hist1figureXrangeTag", "=", "\"\<xmin, xmax\>\""}], ";", 
+        "\n", 
+        RowBox[{"Hist1figureYrangeTag", "=", "\"\<ymin, ymax\>\""}], ";"}], 
+       "\[IndentingNewLine]", "*)"}], "\n", 
+      RowBox[{"(*", "\n", 
+       RowBox[{"Hist2figureXrangeTag", "\n", "Hist2figureYrangeTag"}], "\n", 
+       "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"(*", "\n", 
+       RowBox[{
+        RowBox[{
+        "ColorSeperatorTag", "=", "\"\<Color by data percentage\>\""}], ";"}],
+        "\[IndentingNewLine]", "*)"}], "\n", 
+      RowBox[{"SizeTag", "=", "\"\<Size\>\""}], ";", "\n", 
+      RowBox[{"HighlightTypeTag", "=", "\"\<Type\>\""}], ";", "\n", 
+      RowBox[{"HighlightModeTag", "=", "\"\<Mode\>\""}], ";", "\n", 
+      RowBox[{"HighlightMode1Tag", "=", "\"\<Mode 1 range\>\""}], ";", "\n", 
+      RowBox[{"HighlightMode2Tag", "=", "\"\<Mode 2 range\>\""}], ";", "\n", 
+      "\n", 
+      RowBox[{"Jobid", "=", "\"\<unset\>\""}], ";", "\[IndentingNewLine]", 
+      RowBox[{"JobDescription", "=", "\"\<unset\>\""}], ";", 
+      RowBox[{"(*", "20171128", "*)"}], "\n", 
+      RowBox[{"PDFname", "=", "\"\<unset\>\""}], ";", "\n", 
+      RowBox[{"FigureType", "=", "\"\<unset\>\""}], ";", "\n", 
+      RowBox[{"FigureFlag", "=", "\"\<unset\>\""}], ";", "\n", 
+      RowBox[{"ExptidType", "=", "\"\<unset\>\""}], ";", "\n", 
+      RowBox[{"ExptidFlag", "=", "\"\<unset\>\""}], ";", "\n", 
+      RowBox[{"CorrelationArgType", "=", "\"\<unset\>\""}], ";", "\n", 
+      RowBox[{"CorrelationArgFlag", "=", "\"\<unset\>\""}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"(*", 
+       RowBox[{
+        RowBox[{"20171109", ":", " ", 
+         RowBox[{
+         "delete", " ", "the", " ", "user", " ", "define", " ", "function", 
+          " ", "value", " ", "part"}]}], ",", " ", 
+        RowBox[{
+        "ReadUserFunction", " ", "will", " ", "be", " ", "in", " ", "charge", 
+         " ", "of", " ", "it"}]}], "*)"}], "\n", 
+      RowBox[{"(*", "\n", 
+       RowBox[{
+        RowBox[{"UserArgName", "=", "\"\<unset\>\""}], ";", "\n", 
+        RowBox[{"UserArgValue", "=", "\"\<unset\>\""}], ";"}], 
+       "\[IndentingNewLine]", "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"XQfigureXrange", "=", "\"\<unset\>\""}], ";", "\n", 
+      RowBox[{"XQfigureYrange", "=", "\"\<unset\>\""}], ";", "\n", 
+      RowBox[{"ColorPaletterange", "=", "\"\<unset\>\""}], ";", 
+      RowBox[{"(*", "20171128", "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"Hist1figureNbin", "=", "\"\<unset\>\""}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"(*", "\n", 
+       RowBox[{
+        RowBox[{"Hist1figureXrange", "=", "\"\<unset\>\""}], ";", "\n", 
+        RowBox[{"Hist1figureYrange", "=", "\"\<unset\>\""}], ";"}], "\n", 
+       "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"(*", "\n", 
+       RowBox[{
+        RowBox[{"ColorSeperator", "=", "\"\<unset\>\""}], ";"}], 
+       "\[IndentingNewLine]", "*)"}], "\n", 
+      RowBox[{"Size", "=", "\"\<unset\>\""}], ";", "\n", 
+      RowBox[{"HighlightType", "=", "\"\<unset\>\""}], ";", "\n", 
+      RowBox[{"HighlightMode", "=", "\"\<unset\>\""}], ";", "\n", 
+      RowBox[{"HighlightMode1", "=", "\"\<unset\>\""}], ";", "\n", 
+      RowBox[{"HighlightMode2", "=", "\"\<unset\>\""}], ";", "\n", "\n", 
+      RowBox[{"(*", 
+       RowBox[{
+       "read", " ", "config", " ", "file", " ", "line", " ", "by", " ", 
+        "line", " ", "into", " ", "list"}], "*)"}], "\n", 
+      RowBox[{"s", "=", 
+       RowBox[{"OpenRead", "[", 
+        RowBox[{"configDir", "<>", "configfilename"}], "]"}]}], ";", "\n", 
+      RowBox[{"output", "=", 
+       RowBox[{"ReadList", "[", 
+        RowBox[{"s", ",", "String"}], "]"}]}], ";", "\n", 
+      RowBox[{"Close", "[", "s", "]"}], ";", "\n", "\n", 
+      RowBox[{"(*", 
+       RowBox[{"delete", " ", 
+        RowBox[{"comments", ":", " ", 
+         RowBox[{
+         "with", " ", "\"\<#\>\"", " ", "at", " ", "begining", " ", "of", " ",
+           "line"}]}]}], "*)"}], "\n", 
+      RowBox[{"output2", "=", 
+       RowBox[{"{", "}"}]}], ";", "\n", 
+      RowBox[{"Table", "[", "\n", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"StringTake", "[", 
+             RowBox[{
+              RowBox[{"output", "[", 
+               RowBox[{"[", "i", "]"}], "]"}], ",", "1"}], "]"}], "!=", 
+            "\"\<#\>\""}], ",", 
+           RowBox[{"output2", "=", 
+            RowBox[{"Append", "[", 
+             RowBox[{"output2", ",", 
+              RowBox[{"output", "[", 
+               RowBox[{"[", "i", "]"}], "]"}]}], " ", "]"}]}]}], " ", "]"}], 
+         ";", "\n", "\"\<dummy\>\""}], "\n", ",", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "1", ",", 
+          RowBox[{"Length", "[", "output", "]"}]}], "}"}]}], "\n", "]"}], ";",
+       "\[IndentingNewLine]", 
+      RowBox[{"(*", 
+       RowBox[{
+       "20171128", " ", "delete", " ", "text", " ", "after", " ", "#", " ", 
+        "for", " ", "each", " ", "line"}], "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"output2", "=", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringSplit", "[", 
+           RowBox[{
+            RowBox[{"output2", "[", 
+             RowBox[{"[", "i", "]"}], "]"}], ",", "\"\<#\>\""}], "]"}], "[", 
+          RowBox[{"[", "1", "]"}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"i", ",", "1", ",", 
+           RowBox[{"Length", "[", "output2", "]"}]}], "}"}]}], "]"}]}], ";", 
+      "\[IndentingNewLine]", "\n", 
+      RowBox[{"(*", 
+       RowBox[{
+       "seperate", " ", "the", " ", "tag", " ", "of", " ", "configure", " ", 
+        "file", " ", "and", " ", "arguments", " ", "by", " ", "\"\<:\>\""}], 
+       "*)"}], "\n", 
+      RowBox[{"output3", "=", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"StringSplit", "[", 
+          RowBox[{
+           RowBox[{"output2", "[", 
+            RowBox[{"[", "i", "]"}], "]"}], ",", "\"\<:\>\""}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"i", ",", "1", ",", 
+           RowBox[{"Length", "[", "output2", "]"}]}], "}"}]}], "]"}]}], ";", 
+      "\n", "\n", 
+      RowBox[{"(*", 
+       RowBox[{
+        RowBox[{"check", " ", "tag", " ", "exist"}], ",", " ", 
+        RowBox[{"if", " ", "a", " ", "tag", " ", "exist"}], ",", " ", 
+        RowBox[{
+        "read", " ", "arguments", " ", "corresponding", " ", "to", " ", 
+         "that", " ", "tag"}]}], "*)"}], "\n", 
+      RowBox[{"(*", 
+       RowBox[{"read", " ", "Job", " ", "id"}], "*)"}], "\n", 
+      RowBox[{"itag", "=", "1"}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", "JobidTag"}], ",", 
+        
+        RowBox[{
+         RowBox[{"Jobid", "=", 
+          RowBox[{"output3", "[", 
+           RowBox[{"[", 
+            RowBox[{"itag", ",", "2"}], "]"}], "]"}]}], ";", 
+         RowBox[{"Jobid", "=", 
+          RowBox[{"Read", "[", 
+           RowBox[{
+            RowBox[{"StringToStream", "[", "Jobid", "]"}], ",", 
+            RowBox[{"(*", "Number", "*)"}], 
+            RowBox[{"(*", "20171128", "*)"}], "Word"}], "]"}]}]}]}], " ", 
+       "]"}], ";", "\n", 
+      RowBox[{"Head", "[", "Jobid", "]"}], ";", "\[IndentingNewLine]", 
+      RowBox[{"(*", 
+       RowBox[{"20171128", " ", "add", " ", "job", " ", "description"}], 
+       "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+         "JobDescriptionTag"}], ",", 
+        RowBox[{
+         RowBox[{"JobDescription", "=", 
+          RowBox[{"output3", "[", 
+           RowBox[{"[", 
+            RowBox[{"itag", ",", "2"}], "]"}], "]"}]}], ";", 
+         RowBox[{"JobDescription", "=", 
+          RowBox[{"Read", "[", 
+           RowBox[{
+            RowBox[{"StringToStream", "[", "JobDescription", "]"}], ",", 
+            RowBox[{"(*", "Number", "*)"}], 
+            RowBox[{"(*", "20171128", "*)"}], "String"}], "]"}]}]}]}], " ", 
+       "]"}], ";", "\n", 
+      RowBox[{"Head", "[", "JobDescription", "]"}], ";", "\n", 
+      RowBox[{"(*", 
+       RowBox[{"read", " ", "PDFname"}], "*)"}], "\n", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", "PDFnameTag"}], 
+        ",", 
+        RowBox[{
+         RowBox[{"PDFname", "=", 
+          RowBox[{"output3", "[", 
+           RowBox[{"[", 
+            RowBox[{"itag", ",", "2"}], "]"}], "]"}]}], ";", 
+         RowBox[{"PDFname", "=", 
+          RowBox[{"Read", "[", 
+           RowBox[{
+            RowBox[{"StringToStream", "[", "PDFname", "]"}], ",", "Word"}], 
+           "]"}]}]}]}], " ", "]"}], ";", "\n", 
+      RowBox[{"Head", "[", "PDFname", "]"}], ";", "\n", 
+      RowBox[{"(*", 
+       RowBox[{"read", " ", "FigureType", " ", "and", " ", "FigureFlag"}], 
+       "*)"}], "\n", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", "FigureTypeTag"}], 
+        ",", 
+        RowBox[{"FigureType", "=", 
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+      "\n", 
+      RowBox[{"Head", "[", "FigureType", "]"}], ";", "\n", "\n", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", "FigureFlagTag"}], 
+        ",", 
+        RowBox[{"FigureFlag", "=", 
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+      "\n", 
+      RowBox[{"Head", "[", "FigureFlag", "]"}], ";", "\n", "\n", 
+      RowBox[{"FigureType", "=", 
+       RowBox[{"ReadList", "[", 
+        RowBox[{
+         RowBox[{"StringToStream", "[", "FigureType", "]"}], ",", "Word"}], 
+        "]"}]}], ";", "\n", 
+      RowBox[{"FigureFlag", "=", 
+       RowBox[{"ReadList", "[", 
+        RowBox[{
+         RowBox[{"StringToStream", "[", "FigureFlag", "]"}], ",", "Number"}], 
+        "]"}]}], ";", "\n", "\n", 
+      RowBox[{"(*", 
+       RowBox[{"read", " ", "ExptidType", " ", "and", " ", "ExptidFlag"}], 
+       "*)"}], "\n", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", "ExptidTypeTag"}], 
+        ",", 
+        RowBox[{"ExptidType", "=", 
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+      "\n", 
+      RowBox[{"Head", "[", "ExptidType", "]"}], ";", "\n", "\n", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", "ExptidFlagTag"}], 
+        ",", 
+        RowBox[{"ExptidFlag", "=", 
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+      "\n", 
+      RowBox[{"Head", "[", "ExptidFlag", "]"}], ";", "\n", "\n", 
+      RowBox[{"ExptidType", "=", 
+       RowBox[{"ReadList", "[", 
+        RowBox[{
+         RowBox[{"StringToStream", "[", "ExptidType", "]"}], ",", "Number"}], 
+        "]"}]}], ";", "\n", 
+      RowBox[{"ExptidFlag", "=", 
+       RowBox[{"ReadList", "[", 
+        RowBox[{
+         RowBox[{"StringToStream", "[", "ExptidFlag", "]"}], ",", "Number"}], 
+        "]"}]}], ";", "\n", "\n", 
+      RowBox[{"(*", 
+       RowBox[{
+       "read", " ", "CorrelationArgType", " ", "and", " ", 
+        "CorrelationArgFlag"}], "*)"}], "\n", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+         "CorrelationArgTypeTag"}], ",", 
+        RowBox[{"CorrelationArgType", "=", 
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+      "\n", 
+      RowBox[{"Head", "[", "CorrelationArgType", "]"}], ";", "\n", "\n", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+         "CorrelationArgFlagTag"}], ",", 
+        RowBox[{"CorrelationArgFlag", "=", 
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+      "\n", 
+      RowBox[{"Head", "[", "CorrelationArgFlag", "]"}], ";", "\n", "\n", 
+      RowBox[{"CorrelationArgType", "=", 
+       RowBox[{"ReadList", "[", 
+        RowBox[{
+         RowBox[{"StringToStream", "[", "CorrelationArgType", "]"}], ",", 
+         "Word"}], "]"}]}], ";", "\n", 
+      RowBox[{"CorrelationArgFlag", "=", 
+       RowBox[{"ReadList", "[", 
+        RowBox[{
+         RowBox[{"StringToStream", "[", "CorrelationArgFlag", "]"}], ",", 
+         "Number"}], "]"}]}], ";", "\n", "\[IndentingNewLine]", 
+      RowBox[{"(*", 
+       RowBox[{
+        RowBox[{"20171109", ":", " ", 
+         RowBox[{
+         "delete", " ", "the", " ", "user", " ", "define", " ", "function", 
+          " ", "value", " ", "part"}]}], ",", " ", 
+        RowBox[{
+        "ReadUserFunction", " ", "will", " ", "be", " ", "in", " ", "charge", 
+         " ", "of", " ", "it"}]}], "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"(*", "\n", 
+       RowBox[{"(*", 
+        RowBox[{"read", " ", "UserArgName"}], "*)"}], "\n", 
+       RowBox[{
+        RowBox[{"itag", "=", 
+         RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"output3", "[", 
+            RowBox[{"[", 
+             RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+           "UserArgNameTag"}], ",", 
+          RowBox[{"UserArgName", "=", 
+           RowBox[{"output3", "[", 
+            RowBox[{"[", 
+             RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+        "\n", 
+        RowBox[{"Head", "[", "UserArgName", "]"}], ";", "\n", 
+        RowBox[{"(*", 
+         RowBox[{"read", " ", "UserArgValue"}], "*)"}], "\n", 
+        RowBox[{"itag", "=", 
+         RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"output3", "[", 
+            RowBox[{"[", 
+             RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+           "UserArgValueTag"}], ",", 
+          RowBox[{"UserArgValue", "=", 
+           RowBox[{"output3", "[", 
+            RowBox[{"[", 
+             RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+        "\n", 
+        RowBox[{"Head", "[", "UserArgValue", "]"}], ";", "\n", "\n", 
+        RowBox[{"UserArgValue", "=", 
+         RowBox[{"ReadList", "[", 
+          RowBox[{
+           RowBox[{"StringToStream", "[", "UserArgValue", "]"}], ",", 
+           "Number"}], "]"}]}], ";"}], "\[IndentingNewLine]", "*)"}], "\n", 
+      RowBox[{"(*", 
+       RowBox[{
+       "read", " ", "XQfigureXrange", " ", "and", " ", "XQfigureYrange"}], 
+       "*)"}], "\n", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+         "XQfigureXrangeTag"}], ",", 
+        RowBox[{"XQfigureXrange", "=", 
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+      "\n", 
+      RowBox[{"Head", "[", "XQfigureXrange", "]"}], ";", "\n", "\n", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+         "XQfigureYrangeTag"}], ",", 
+        RowBox[{"XQfigureYrange", "=", 
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+      "\n", 
+      RowBox[{"Head", "[", "XQfigureYrange", "]"}], ";", "\n", "\n", 
+      RowBox[{"XQfigureXrange", "=", 
+       RowBox[{"ReadList", "[", 
+        RowBox[{
+         RowBox[{"StringToStream", "[", "XQfigureXrange", "]"}], ",", 
+         "Word"}], "]"}]}], ";", "\n", 
+      RowBox[{"XQfigureYrange", "=", 
+       RowBox[{"ReadList", "[", 
+        RowBox[{
+         RowBox[{"StringToStream", "[", "XQfigureYrange", "]"}], ",", 
+         "Word"}], "]"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"XQfigureXrange", "[", 
+          RowBox[{"[", "1", "]"}], "]"}], "!=", "\"\<auto\>\""}], ",", 
+        RowBox[{
+         RowBox[{"XQfigureXrange", "[", 
+          RowBox[{"[", "1", "]"}], "]"}], "=", 
+         RowBox[{"Read", "[", 
+          RowBox[{
+           RowBox[{"StringToStream", "[", 
+            RowBox[{"XQfigureXrange", "[", 
+             RowBox[{"[", "1", "]"}], "]"}], " ", "]"}], ",", "Number"}], 
+          "]"}]}]}], " ", "]"}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"XQfigureXrange", "[", 
+          RowBox[{"[", "2", "]"}], "]"}], "!=", "\"\<auto\>\""}], ",", 
+        RowBox[{
+         RowBox[{"XQfigureXrange", "[", 
+          RowBox[{"[", "2", "]"}], "]"}], "=", 
+         RowBox[{"Read", "[", 
+          RowBox[{
+           RowBox[{"StringToStream", "[", 
+            RowBox[{"XQfigureXrange", "[", 
+             RowBox[{"[", "2", "]"}], "]"}], " ", "]"}], ",", "Number"}], 
+          "]"}]}]}], " ", "]"}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"XQfigureYrange", "[", 
+          RowBox[{"[", "1", "]"}], "]"}], "!=", "\"\<auto\>\""}], ",", 
+        RowBox[{
+         RowBox[{"XQfigureYrange", "[", 
+          RowBox[{"[", "1", "]"}], "]"}], "=", 
+         RowBox[{"Read", "[", 
+          RowBox[{
+           RowBox[{"StringToStream", "[", 
+            RowBox[{"XQfigureYrange", "[", 
+             RowBox[{"[", "1", "]"}], "]"}], " ", "]"}], ",", "Number"}], 
+          "]"}]}]}], " ", "]"}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"XQfigureYrange", "[", 
+          RowBox[{"[", "2", "]"}], "]"}], "!=", "\"\<auto\>\""}], ",", 
+        RowBox[{
+         RowBox[{"XQfigureYrange", "[", 
+          RowBox[{"[", "2", "]"}], "]"}], "=", 
+         RowBox[{"Read", "[", 
+          RowBox[{
+           RowBox[{"StringToStream", "[", 
+            RowBox[{"XQfigureYrange", "[", 
+             RowBox[{"[", "2", "]"}], "]"}], " ", "]"}], ",", "Number"}], 
+          "]"}]}]}], " ", "]"}], ";", "\n", 
+      RowBox[{"(*", 
+       RowBox[{
+        RowBox[{"read", " ", "Hist1figureNbin"}], ",", " ", 
+        "Hist1figureXrange", ",", " ", "Hist1figureYrange"}], "*)"}], 
+      RowBox[{"(*", 
+       RowBox[{
+       "20171128", " ", "delete", " ", "histogram", " ", "ranges", " ", "and",
+         " ", "add", " ", "color", " ", "palette"}], "*)"}], 
+      "\[IndentingNewLine]", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+         "ColorPaletterangeTag"}], ",", 
+        RowBox[{"ColorPaletterange", "=", 
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+      "\n", 
+      RowBox[{"Head", "[", "ColorPaletterange", "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"ColorPaletterange", "=", 
+       RowBox[{"ReadList", "[", 
+        RowBox[{
+         RowBox[{"StringToStream", "[", "ColorPaletterange", "]"}], ",", 
+         "Word"}], "]"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"ColorPaletterange", "[", 
+          RowBox[{"[", "1", "]"}], "]"}], "!=", "\"\<auto\>\""}], ",", 
+        RowBox[{
+         RowBox[{"ColorPaletterange", "[", 
+          RowBox[{"[", "1", "]"}], "]"}], "=", 
+         RowBox[{"Read", "[", 
+          RowBox[{
+           RowBox[{"StringToStream", "[", 
+            RowBox[{"ColorPaletterange", "[", 
+             RowBox[{"[", "1", "]"}], "]"}], " ", "]"}], ",", "Number"}], 
+          "]"}]}]}], " ", "]"}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"ColorPaletterange", "[", 
+          RowBox[{"[", "2", "]"}], "]"}], "!=", "\"\<auto\>\""}], ",", 
+        RowBox[{
+         RowBox[{"ColorPaletterange", "[", 
+          RowBox[{"[", "2", "]"}], "]"}], "=", 
+         RowBox[{"Read", "[", 
+          RowBox[{
+           RowBox[{"StringToStream", "[", 
+            RowBox[{"ColorPaletterange", "[", 
+             RowBox[{"[", "2", "]"}], "]"}], " ", "]"}], ",", "Number"}], 
+          "]"}]}]}], " ", "]"}], ";", "\n", "\n", "\[IndentingNewLine]", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+         "Hist1figureNbinTag"}], ",", 
+        RowBox[{
+         RowBox[{"Hist1figureNbin", "=", 
+          RowBox[{"output3", "[", 
+           RowBox[{"[", 
+            RowBox[{"itag", ",", "2"}], "]"}], "]"}]}], ";", 
+         RowBox[{"Hist1figureNbin", "=", 
+          RowBox[{"Read", "[", 
+           RowBox[{
+            RowBox[{"StringToStream", "[", "Hist1figureNbin", "]"}], ",", 
+            "Word"}], "]"}]}]}]}], " ", "]"}], ";", "\n", 
+      RowBox[{"Head", "[", "Hist1figureNbin", "]"}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"Hist1figureNbin", "!=", "\"\<auto\>\""}], ",", 
+        RowBox[{"Hist1figureNbin", "=", 
+         RowBox[{"Read", "[", 
+          RowBox[{
+           RowBox[{"StringToStream", "[", "Hist1figureNbin", "]"}], ",", 
+           "Number"}], "]"}]}]}], " ", "]"}], ";", "\n", 
+      RowBox[{"(*", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"20171128", "\n", "itag"}], "=", 
+         RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"output3", "[", 
+            RowBox[{"[", 
+             RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+           "Hist1figureXrangeTag"}], ",", 
+          RowBox[{"Hist1figureXrange", "=", 
+           RowBox[{"output3", "[", 
+            RowBox[{"[", 
+             RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+        "\n", 
+        RowBox[{"Head", "[", "Hist1figureXrange", "]"}], ";", "\n", "\n", 
+        RowBox[{"itag", "=", 
+         RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"output3", "[", 
+            RowBox[{"[", 
+             RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+           "Hist1figureYrangeTag"}], ",", 
+          RowBox[{"Hist1figureYrange", "=", 
+           RowBox[{"output3", "[", 
+            RowBox[{"[", 
+             RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+        "\n", 
+        RowBox[{"Head", "[", "Hist1figureYrange", "]"}], ";", "\n", "\n", 
+        RowBox[{"Hist1figureXrange", "=", 
+         RowBox[{"ReadList", "[", 
+          RowBox[{
+           RowBox[{"StringToStream", "[", "Hist1figureXrange", "]"}], ",", 
+           "Word"}], "]"}]}], ";", "\n", 
+        RowBox[{"Hist1figureYrange", "=", 
+         RowBox[{"ReadList", "[", 
+          RowBox[{
+           RowBox[{"StringToStream", "[", "Hist1figureYrange", "]"}], ",", 
+           "Word"}], "]"}]}], ";", "\n", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"Hist1figureXrange", "[", 
+            RowBox[{"[", "1", "]"}], "]"}], "!=", "\"\<auto\>\""}], ",", 
+          RowBox[{
+           RowBox[{"Hist1figureXrange", "[", 
+            RowBox[{"[", "1", "]"}], "]"}], "=", 
+           RowBox[{"Read", "[", 
+            RowBox[{
+             RowBox[{"StringToStream", "[", 
+              RowBox[{"Hist1figureXrange", "[", 
+               RowBox[{"[", "1", "]"}], "]"}], " ", "]"}], ",", "Number"}], 
+            "]"}]}]}], " ", "]"}], ";", "\n", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"Hist1figureXrange", "[", 
+            RowBox[{"[", "2", "]"}], "]"}], "!=", "\"\<auto\>\""}], ",", 
+          RowBox[{
+           RowBox[{"Hist1figureXrange", "[", 
+            RowBox[{"[", "2", "]"}], "]"}], "=", 
+           RowBox[{"Read", "[", 
+            RowBox[{
+             RowBox[{"StringToStream", "[", 
+              RowBox[{"Hist1figureXrange", "[", 
+               RowBox[{"[", "2", "]"}], "]"}], " ", "]"}], ",", "Number"}], 
+            "]"}]}]}], " ", "]"}], ";", "\n", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"Hist1figureYrange", "[", 
+            RowBox[{"[", "1", "]"}], "]"}], "!=", "\"\<auto\>\""}], ",", 
+          RowBox[{
+           RowBox[{"Hist1figureYrange", "[", 
+            RowBox[{"[", "1", "]"}], "]"}], "=", 
+           RowBox[{"Read", "[", 
+            RowBox[{
+             RowBox[{"StringToStream", "[", 
+              RowBox[{"Hist1figureYrange", "[", 
+               RowBox[{"[", "1", "]"}], "]"}], " ", "]"}], ",", "Number"}], 
+            "]"}]}]}], " ", "]"}], ";", "\n", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"Hist1figureYrange", "[", 
+            RowBox[{"[", "2", "]"}], "]"}], "!=", "\"\<auto\>\""}], ",", 
+          RowBox[{
+           RowBox[{"Hist1figureYrange", "[", 
+            RowBox[{"[", "2", "]"}], "]"}], "=", 
+           RowBox[{"Read", "[", 
+            RowBox[{
+             RowBox[{"StringToStream", "[", 
+              RowBox[{"Hist1figureYrange", "[", 
+               RowBox[{"[", "2", "]"}], "]"}], " ", "]"}], ",", "Number"}], 
+            "]"}]}]}], " ", "]"}], ";"}], "\n", "*)"}], "\n", 
+      RowBox[{"(*", 
+       RowBox[{"20170306", ":", " ", 
+        RowBox[{"add", " ", "color", " ", "seperator"}]}], "*)"}], 
+      "\[IndentingNewLine]", 
+      RowBox[{"(*", 
+       RowBox[{"20171128", ":", " ", 
+        RowBox[{"delete", " ", "it"}]}], "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"(*", "\n", 
+       RowBox[{
+        RowBox[{"itag", "=", 
+         RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"output3", "[", 
+            RowBox[{"[", 
+             RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+           "ColorSeperatorTag"}], ",", 
+          RowBox[{"ColorSeperator", "=", 
+           RowBox[{"output3", "[", 
+            RowBox[{"[", 
+             RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+        "\n", 
+        RowBox[{"Head", "[", "ColorSeperator", "]"}], ";", "\n", "\n", 
+        RowBox[{"ColorSeperator", "=", 
+         RowBox[{"ReadList", "[", 
+          RowBox[{
+           RowBox[{"StringToStream", "[", "ColorSeperator", "]"}], ",", 
+           "Word"}], "]"}]}], ";", "\n", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"ColorSeperator", "[", 
+            RowBox[{"[", "1", "]"}], "]"}], "!=", "\"\<auto\>\""}], ",", "\n", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{
+              RowBox[{"ColorSeperator", "[", 
+               RowBox[{"[", "i", "]"}], "]"}], "=", 
+              RowBox[{"Read", "[", 
+               RowBox[{
+                RowBox[{"StringToStream", "[", 
+                 RowBox[{"ColorSeperator", "[", 
+                  RowBox[{"[", "i", "]"}], "]"}], " ", "]"}], ",", "Number"}],
+                "]"}]}], ";", "\"\<dummy\>\""}], ",", 
+            RowBox[{"{", 
+             RowBox[{"i", ",", "1", ",", 
+              RowBox[{"Length", "[", "ColorSeperator", "]"}]}], "}"}]}], 
+           "]"}]}], " ", "\n", "]"}], ";"}], "\[IndentingNewLine]", "*)"}], 
+      "\n", "\n", 
+      RowBox[{"(*", 
+       RowBox[{"read", " ", "HighlightType", 
+        RowBox[{"(", "FigureType", ")"}], " ", "and", " ", "HighlightMode"}], 
+       "*)"}], "\n", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+         "HighlightTypeTag"}], ",", 
+        RowBox[{"HighlightType", "=", 
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+      "\n", 
+      RowBox[{"Head", "[", "HighlightType", "]"}], ";", "\n", "\n", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+         "HighlightModeTag"}], ",", 
+        RowBox[{"HighlightMode", "=", 
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+      "\n", 
+      RowBox[{"Head", "[", "HighlightMode", "]"}], ";", "\n", 
+      RowBox[{"(*", 
+       RowBox[{
+        RowBox[{"Print", "[", 
+         RowBox[{
+          RowBox[{"output3", "[", 
+           RowBox[{"[", 
+            RowBox[{"itag", ",", "1"}], "]"}], "]"}], ",", "\"\<   \>\"", ",",
+           "HighlightModeTag"}], "]"}], ";"}], "*)"}], "\n", "\n", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+         "HighlightMode1Tag"}], ",", 
+        RowBox[{"HighlightMode1", "=", 
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+      "\n", 
+      RowBox[{"Head", "[", "HighlightMode1", "]"}], ";", "\n", 
+      RowBox[{"(*", 
+       RowBox[{
+        RowBox[{"Print", "[", 
+         RowBox[{
+          RowBox[{"output3", "[", 
+           RowBox[{"[", 
+            RowBox[{"itag", ",", "1"}], "]"}], "]"}], ",", "\"\<   \>\"", ",",
+           "HighlightMode1Tag"}], "]"}], ";"}], "*)"}], "\n", "\n", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", 
+         "HighlightMode2Tag"}], ",", 
+        RowBox[{"HighlightMode2", "=", 
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "2"}], "]"}], "]"}]}]}], " ", "]"}], ";", 
+      "\n", 
+      RowBox[{"Head", "[", "HighlightMode2", "]"}], ";", "\n", 
+      RowBox[{"(*", 
+       RowBox[{
+        RowBox[{"Print", "[", 
+         RowBox[{
+          RowBox[{"output3", "[", 
+           RowBox[{"[", 
+            RowBox[{"itag", ",", "1"}], "]"}], "]"}], ",", "\"\<   \>\"", ",",
+           "HighlightMode2Tag"}], "]"}], ";"}], "*)"}], "\n", "\n", 
+      RowBox[{"HighlightType", "=", 
+       RowBox[{"ReadList", "[", 
+        RowBox[{
+         RowBox[{"StringToStream", "[", "HighlightType", "]"}], ",", "Word"}],
+         "]"}]}], ";", "\n", 
+      RowBox[{"HighlightMode", "=", 
+       RowBox[{"ReadList", "[", 
+        RowBox[{
+         RowBox[{"StringToStream", "[", "HighlightMode", "]"}], ",", 
+         "Number"}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"(*", 
+       RowBox[{"20171109", ":", " ", 
+        RowBox[{
+        "new", " ", "convention", " ", "of", " ", "highlight", " ", "range"}],
+         ":"}], "  ", "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"(*", " ", 
+       RowBox[{"Mode", ":", "                        ", 
+        RowBox[{
+         RowBox[{
+         "1", "                      ", "2", "    ", "3", "   ", "4"}], " ", 
+         "..."}]}], "*)"}], "\n", 
+      RowBox[{"(*", " ", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{
+             RowBox[{"Mode", " ", "1", " ", 
+              RowBox[{"range", ":", " ", 
+               RowBox[{"{", 
+                RowBox[{
+                 RowBox[{"{", 
+                  RowBox[{"hmin1", ",", "hmax1"}], "}"}], ",", 
+                 RowBox[{"{", 
+                  RowBox[{"hmin2", ",", "hmax2"}], "}"}], ",", "..."}], 
+                "}"}]}]}], ";"}], "  ", "..."}], ";"}], " ", "..."}], ";"}], 
+        " ", "..."}], "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"HighlightMode1", "=", 
+       RowBox[{"StringSplit", "[", 
+        RowBox[{
+         RowBox[{"Read", "[", 
+          RowBox[{
+           RowBox[{"StringToStream", "[", "HighlightMode1", "]"}], ",", 
+           "String"}], "]"}], ",", "\"\<;\>\""}], "]"}]}], ";", 
+      RowBox[{"(*", 
+       RowBox[{
+        RowBox[{"ReadList", "[", 
+         RowBox[{
+          RowBox[{"StringToStream", "[", "HighlightMode1", "]"}], ",", 
+          "Number"}], "]"}], ";"}], "*)"}], "\n", 
+      RowBox[{"HighlightMode2", "=", 
+       RowBox[{"StringSplit", "[", 
+        RowBox[{
+         RowBox[{"Read", "[", 
+          RowBox[{
+           RowBox[{"StringToStream", "[", "HighlightMode2", "]"}], ",", 
+           "String"}], "]"}], ",", "\"\<;\>\""}], "]"}]}], ";", 
+      RowBox[{"(*", 
+       RowBox[{
+        RowBox[{"ReadList", "[", 
+         RowBox[{
+          RowBox[{"StringToStream", "[", "HighlightMode2", "]"}], ",", 
+          "Number"}], "]"}], ";"}], "*)"}], "\n", 
+      RowBox[{"(*", 
+       RowBox[{
+       "read", " ", "the", " ", "List", " ", "expression", " ", "for", " ", 
+        "every", " ", "figure", " ", "type"}], "*)"}], "\[IndentingNewLine]", 
+      
+      RowBox[{"HighlightMode1", "=", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Read", "[", 
+          RowBox[{
+           RowBox[{"StringToStream", "[", "#", "]"}], ",", "Expression"}], 
+          "]"}], "&"}], "/@", "HighlightMode1"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"HighlightMode2", "=", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Read", "[", 
+          RowBox[{
+           RowBox[{"StringToStream", "[", "#", "]"}], ",", "Expression"}], 
+          "]"}], "&"}], "/@", "HighlightMode2"}]}], ";", "\n", 
+      RowBox[{"(*", "20170307", "*)"}], "\n", 
+      RowBox[{"(*", 
+       RowBox[{"read", " ", "Size"}], "*)"}], "\n", 
+      RowBox[{"(*", 
+       RowBox[{"20170315", ":", " ", 
+        RowBox[{
+        "size", " ", "replace", " ", "to", " ", "the", " ", "next", " ", "of",
+          " ", "highlight", " ", "mode"}]}], "*)"}], "\n", 
+      RowBox[{"itag", "=", 
+       RowBox[{"itag", "+", "1"}]}], ";", "\n", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"output3", "[", 
+          RowBox[{"[", 
+           RowBox[{"itag", ",", "1"}], "]"}], "]"}], "==", "SizeTag"}], ",", 
+        RowBox[{
+         RowBox[{"Size", "=", 
+          RowBox[{"output3", "[", 
+           RowBox[{"[", 
+            RowBox[{"itag", ",", "2"}], "]"}], "]"}]}], ";", 
+         RowBox[{"Size", "=", 
+          RowBox[{"Read", "[", 
+           RowBox[{
+            RowBox[{"StringToStream", "[", "Size", "]"}], ",", "Word"}], 
+           "]"}]}]}]}], " ", "]"}], ";", "\n", 
+      RowBox[{"Head", "[", "Size", "]"}], ";", "\n", 
+      RowBox[{"(*", 
+       RowBox[{
+        RowBox[{"Print", "[", "output3", "]"}], ";"}], "*)"}], "\n", "\n", 
+      "\n", "\"\<dummy\>\"", ";", "\[IndentingNewLine]", 
+      "\[IndentingNewLine]", "\n", "\n", 
+      RowBox[{"{", 
+       RowBox[{"Jobid", ",", "JobDescription", 
+        RowBox[{"(*", "20171128", "*)"}], ",", "PDFname", ",", "FigureType", 
+        ",", "FigureFlag", ",", "ExptidType", ",", "ExptidFlag", ",", 
+        "CorrelationArgType", ",", "CorrelationArgFlag", ",", 
+        RowBox[{"(*", 
+         RowBox[{"UserArgName", ",", "UserArgValue", ","}], "*)"}], "\n", 
+        "XQfigureXrange", ",", "XQfigureYrange", ",", "ColorPaletterange", 
+        RowBox[{"(*", "20171128", "*)"}], ",", "Hist1figureNbin", ",", 
+        RowBox[{"(*", 
+         RowBox[{"Hist1figureXrange", ",", "Hist1figureYrange", ","}], "*)"}],
+         "\n", 
+        RowBox[{"(*", 
+         RowBox[{"ColorSeperator", ","}], "*)"}], "\n", "Size", ",", 
+        "HighlightType", ",", "HighlightMode", ",", "HighlightMode1", ",", 
+        "HighlightMode2"}], "}"}]}]}], "\n", "]"}]}]}]], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.719207889677051*^9, 3.7192081110129642`*^9}, {
+   3.719208146187992*^9, 3.719208186937668*^9}, {3.719211415669033*^9, 
+   3.7192114319329844`*^9}, {3.7192114676506453`*^9, 3.719211547442705*^9}, {
+   3.719211636563114*^9, 3.719211676904344*^9}, {3.719211706962453*^9, 
+   3.71921179230167*^9}, {3.7192118685394573`*^9, 3.719211937657652*^9}, {
+   3.7208907546417847`*^9, 3.720890853120983*^9}, {3.720890883993734*^9, 
+   3.720891029668154*^9}, {3.720891090808009*^9, 3.7208912142840014`*^9}, {
+   3.7208913438941917`*^9, 3.720891399864028*^9}, {3.720891433431473*^9, 
+   3.7208914402475224`*^9}, {3.7208914754348717`*^9, 3.720891494113591*^9}, {
+   3.720892669146001*^9, 3.720892683695612*^9}, {3.720893059592018*^9, 
+   3.720893081690393*^9}, {3.720903951280942*^9, 3.720903952696278*^9}, {
+   3.720904744338842*^9, 3.7209048091074944`*^9}, {3.7209052657461967`*^9, 
+   3.7209053216824303`*^9}, 3.720905396987629*^9, {3.720905592693925*^9, 
+   3.7209056057802687`*^9}, {3.720905661036044*^9, 3.720905684011466*^9}, {
+   3.720905726533125*^9, 3.720905729331748*^9}, {3.720905915335945*^9, 
+   3.7209059579102097`*^9}, {3.7209060683047543`*^9, 
+   3.7209060924899263`*^9}, {3.720906129411162*^9, 3.7209061789027557`*^9}, {
+   3.720906213170022*^9, 3.720906230730955*^9}, {3.720906279149692*^9, 
+   3.720906286070471*^9}, {3.720906353923388*^9, 3.7209063753774023`*^9}, {
+   3.7209064067039003`*^9, 3.720906433834947*^9}, {3.72090648341462*^9, 
+   3.720906521975749*^9}, 3.720906818027364*^9, {3.7209068996618853`*^9, 
+   3.720906899802816*^9}, {3.7209070303972807`*^9, 3.7209070691813507`*^9}, {
+   3.72090712335848*^9, 3.7209071712295732`*^9}, {3.74761427676544*^9, 
+   3.747614284489408*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["set path and input file (inspire job format)", "Subsubsection",
+ CellChangeTimes->{{3.75124530214016*^9, 3.751245329872137*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SetDirectory", "[", 
+  RowBox[{"NotebookDirectory", "[", "]"}], " ", "]"}]], "Input",
+ CellChangeTimes->{{3.747614463061863*^9, 3.747614507143251*^9}}],
+
+Cell[BoxData["\<\"/home/botingw/Dropbox/\:7559\:5b78/\:51fa\:570b\:5f8c/\:5b78\
+\:6821/postdoc/application/school_list\"\>"], "Output",
+ CellChangeTimes->{3.747614514654138*^9, 3.747664992620935*^9, 
+  3.747718524791007*^9, 3.749482934964427*^9, 3.749483003616453*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Directory", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.747614487861959*^9, 3.747614524440666*^9}}],
+
+Cell[BoxData["\<\"/home/botingw/Dropbox/\:7559\:5b78/\:51fa\:570b\:5f8c/\:5b78\
+\:6821/postdoc/application/school_list\"\>"], "Output",
+ CellChangeTimes->{3.747614524821227*^9, 3.747664996209097*^9, 
+  3.74948293824889*^9, 3.749483005894538*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"schoollistFile", "=", 
+  "\"\<inspire_raw_data_20181025.txt\>\""}]], "Input",
+ CellChangeTimes->{{3.7476145302440987`*^9, 3.747614550939906*^9}, {
+  3.749482941906139*^9, 3.749482964928735*^9}}],
+
+Cell[BoxData["\<\"inspire_raw_data_20181025.txt\"\>"], "Output",
+ CellChangeTimes->{
+  3.7476145526184587`*^9, 3.7476649985453577`*^9, 3.747718527401569*^9, 
+   3.747718858548073*^9, {3.749482946456403*^9, 3.7494829734388*^9}, 
+   3.749483033123201*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["read text from the input file", "Subsubsection",
+ CellChangeTimes->{{3.751245338396137*^9, 3.75124534599535*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+   "read", " ", "config", " ", "file", " ", "line", " ", "by", " ", "line", 
+    " ", "into", " ", "list"}], "*)"}], "\n", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"s", "=", 
+     RowBox[{"OpenRead", "[", "schoollistFile", "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"output", "=", 
+      RowBox[{"Read", "[", 
+       RowBox[{"s", ",", 
+        RowBox[{"RecordSeparators", "\[Rule]", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"RegularExpression", "[", "\"\<\\\\d{1,3}\>\"", "]"}], 
+           "<>", "\"\<.\>\""}], ")"}]}]}], "]"}]}], ";"}], "\n", "*)"}], "\n", 
+   RowBox[{
+    RowBox[{"output", "=", 
+     RowBox[{"ReadString", "[", "s", "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Close", "[", "s", "]"}], ";"}]}]}]], "Input",
+ CellChangeTimes->{{3.747614557618824*^9, 3.7476145599599867`*^9}, {
+   3.7476157813033113`*^9, 3.7476157817823753`*^9}, 3.747615934270733*^9, {
+   3.747616037166894*^9, 3.747616083447693*^9}, {3.7476162994703407`*^9, 
+   3.747616314915794*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"output", "//", "Length"}]], "Input",
+ CellChangeTimes->{{3.7476163253821297`*^9, 3.747616326839918*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{
+  3.7476159524927692`*^9, {3.747616321549485*^9, 3.747616327372888*^9}, 
+   3.747665007750588*^9, 3.74948326241331*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"infolist", "=", 
+   RowBox[{"Drop", "[", 
+    RowBox[{
+     RowBox[{"StringSplit", "[", 
+      RowBox[{"output", ",", 
+       RowBox[{
+        RowBox[{"RegularExpression", "[", "\"\<\\\\d{1,3}\>\"", "]"}], "~~", 
+        "\"\<.\>\""}]}], "]"}], ",", "1"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.747614579174451*^9, 3.747614605421904*^9}, {
+  3.747614746764456*^9, 3.7476147941217737`*^9}, {3.747614854863101*^9, 
+  3.747614877812664*^9}, {3.74761533474185*^9, 3.7476153415117407`*^9}, {
+  3.747615377415214*^9, 3.7476154503873997`*^9}, {3.7476155790095167`*^9, 
+  3.747615583217464*^9}, {3.747615715147786*^9, 3.747615716216358*^9}, {
+  3.747615797755076*^9, 3.7476158279445257`*^9}, {3.747616346494671*^9, 
+  3.7476163955467787`*^9}, {3.747616426335207*^9, 3.747616460724341*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"infolist", "[", 
+  RowBox[{"[", "1", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7476164655905027`*^9, 3.747616470742757*^9}}],
+
+Cell[BoxData["\<\"\\n               </td><td valign=\\\"top\\\"><div class=\\\
+\"record_body\\\">\\n<strong>2018-10-25:</strong> \\n<a href= \
+http://inspirehep.net/record/1700163>Postdoc Positions in Nuclear Theory at \
+JLab</a>\\n(<a href=\\\" \
+/search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Jefferson+Lab%22&amp;of=\
+hd\\\">Jefferson Lab</a>\\n - North America)\\n<strong>[Deadline: \
+2018-12-02]</strong>\\n<br />\\n\\n<span style='text-transform: \
+capitalize;'>Postdoc</span> - \\nhep-lat, hep-ph, hep-th, \
+nucl-th\\n\\n\\n<div class=\\\"moreinfo\\\"><span class=\\\"moreinfo\\\"><a \
+href=\\\"/record/1700163?ln=en\\\" class=\\\"moreinfo\\\">Detailed \
+record</a></span><!--not showing citations links--></div></td></tr>\\n        \
+        <tr><td valign=\\\"top\\\" align=\\\"right\\\" style=\\\"white-space: \
+nowrap;\\\">\\n                    <abbr class=\\\"unapi-id\\\" \
+title=\\\"1700161\\\"></abbr>\\n\\n                \"\>"], "Output",
+ CellChangeTimes->{3.7476155586659317`*^9, 3.747616471359969*^9, 
+  3.747665023281686*^9, 3.749483043446148*^9, 3.7494832674210653`*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"SchoolInfoExtract", "[", "infotextin_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"infotext", "=", "infotextin"}], ",", "tmpstr", ",", "output"}],
+      "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"tmpstr", "=", 
+      RowBox[{"StringSplit", "[", 
+       RowBox[{"infotext", ",", 
+        RowBox[{"{", 
+         RowBox[{
+         "\"\<<a href= \>\"", ",", "\"\<(<a href=\\\"\>\"", ",", 
+          "\"\<Deadline: \>\"", ",", "\"\<</span> -\>\""}], "}"}]}], "]"}]}], 
+     ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"output", "=", 
+      RowBox[{"{", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"StringSplit", "[", 
+          RowBox[{
+           RowBox[{"tmpstr", "[", 
+            RowBox[{"[", "2", "]"}], "]"}], ",", "\"\<>\>\""}], "]"}], "[", 
+         RowBox[{"[", "1", "]"}], "]"}], ",", "\[IndentingNewLine]", 
+        RowBox[{"(*", 
+         RowBox[{
+          RowBox[{"take", " ", "even"}], "-", 
+          RowBox[{"th", " ", "elements"}]}], "*)"}], "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"StringSplit", "[", 
+            RowBox[{
+             RowBox[{"tmpstr", "[", 
+              RowBox[{"[", "3", "]"}], "]"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"\"\<\\\">\>\"", ",", "\"\<</a>\>\""}], "}"}]}], "]"}], 
+           "[", 
+           RowBox[{"[", 
+            RowBox[{"2", ";;", 
+             RowBox[{"-", "1"}], ";;", "2"}], "]"}], "]"}], ")"}], "//", 
+         "StringJoin"}], ",", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"StringSplit", "[", 
+          RowBox[{
+           RowBox[{"tmpstr", "[", 
+            RowBox[{"[", "4", "]"}], "]"}], ",", 
+           RowBox[{"{", "\"\<]\>\"", "}"}]}], "]"}], "[", 
+         RowBox[{"[", "1", "]"}], "]"}], ",", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"StringSplit", "[", 
+          RowBox[{
+           RowBox[{"tmpstr", "[", 
+            RowBox[{"[", "5", "]"}], "]"}], ",", 
+           RowBox[{"{", "\"\<\\n\>\"", "}"}]}], "]"}], "[", 
+         RowBox[{"[", "2", "]"}], "]"}]}], "\[IndentingNewLine]", "}"}]}], 
+     ";", "\[IndentingNewLine]", "\[IndentingNewLine]", "output", ";", 
+     "\[IndentingNewLine]", "tmpstr", ";", "\[IndentingNewLine]", 
+     "output"}]}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", "]"}]}]], "Input",
+ CellChangeTimes->{{3.7476164890947247`*^9, 3.747616556988453*^9}, {
+   3.7476169702826843`*^9, 3.747617002065629*^9}, {3.747617039128201*^9, 
+   3.747617149002647*^9}, {3.747617202316785*^9, 3.74761720399937*^9}, {
+   3.747617273027522*^9, 3.747617286791745*^9}, {3.7476173170108337`*^9, 
+   3.747617434275056*^9}, {3.747617488042478*^9, 3.747617539923654*^9}, {
+   3.7476176156443377`*^9, 3.747617707084693*^9}, {3.747618042234384*^9, 
+   3.7476180670944157`*^9}, {3.747618237620933*^9, 3.7476183140285387`*^9}, 
+   3.74761836103794*^9, {3.747618814637398*^9, 3.747618815821021*^9}, 
+   3.747665418713531*^9, {3.747665602531571*^9, 3.747665623431449*^9}, {
+   3.747665659949664*^9, 3.74766566193652*^9}, {3.7476657756527977`*^9, 
+   3.74766578019869*^9}, 3.7476661012847548`*^9, {3.7476661364412622`*^9, 
+   3.747666137897586*^9}, {3.7476661910033216`*^9, 3.74766619828366*^9}, {
+   3.749483343515004*^9, 3.749483364284034*^9}, {3.749483479110976*^9, 
+   3.7494834859097757`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"infolist", "[", 
+  RowBox[{"[", "17", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7476178988948107`*^9, 3.747617905101302*^9}, {
+  3.747618788058309*^9, 3.7476187891511593`*^9}}],
+
+Cell[BoxData["\<\"\\n               </td><td valign=\\\"top\\\"><div class=\\\
+\"record_body\\\">\\n<strong>2018-10-18:</strong> \\n<a href= \
+http://inspirehep.net/record/1699120>Theoretical Particle Physics \
+(AJO-12465)</a>\\n(<a href=\\\" \
+/search?ln=en&amp;cc=Institutions&amp;p=110__u%3A%22Freiburg+U.%22&amp;of=hd\\\
+\">Freiburg U.</a>\\n - Europe)\\n<strong>[Deadline: \
+2018-11-30]</strong>\\n<br />\\n\\n<span style='text-transform: \
+capitalize;'>Postdoc</span> - \\nhep-ph, hep-th\\n\\n\\n<div \
+class=\\\"moreinfo\\\"><span class=\\\"moreinfo\\\"><a \
+href=\\\"/record/1699120?ln=en\\\" class=\\\"moreinfo\\\">Detailed \
+record</a></span><!--not showing citations links--></div></td></tr>\\n        \
+        <tr><td valign=\\\"top\\\" align=\\\"right\\\" style=\\\"white-space: \
+nowrap;\\\">\\n                    <abbr class=\\\"unapi-id\\\" \
+title=\\\"1699114\\\"></abbr>\\n\\n                \"\>"], "Output",
+ CellChangeTimes->{{3.747617901624206*^9, 3.74761790568088*^9}, 
+   3.747618071814055*^9, 3.7476187897191*^9, 3.749483053844164*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"SchoolInfoExtract", "[", 
+  RowBox[{"infolist", "[", 
+   RowBox[{"[", "1", "]"}], "]"}], " ", "]"}], "\[IndentingNewLine]", 
+ RowBox[{"SchoolInfoExtract", "[", 
+  RowBox[{"infolist", "[", 
+   RowBox[{"[", "17", "]"}], "]"}], " ", "]"}]}], "Input",
+ CellChangeTimes->{{3.7476171605889387`*^9, 3.747617172115735*^9}, {
+   3.747617214572896*^9, 3.7476172262067842`*^9}, {3.747617442142391*^9, 
+   3.7476174434257298`*^9}, {3.747617521429021*^9, 3.7476175227665033`*^9}, {
+   3.7476175894284277`*^9, 3.7476175903296633`*^9}, {3.747617666598298*^9, 
+   3.747617685979953*^9}, {3.747617716807616*^9, 3.7476177250113*^9}, {
+   3.747617821835402*^9, 3.747617822428124*^9}, {3.747617891036113*^9, 
+   3.747617891684433*^9}, {3.747618086216865*^9, 3.747618101163039*^9}, {
+   3.7476182065408792`*^9, 3.74761821893934*^9}, {3.747618304824224*^9, 
+   3.74761830547338*^9}, {3.7476188226493*^9, 3.747618867034513*^9}, {
+   3.747618900462337*^9, 3.7476189274855347`*^9}, 3.74766574375523*^9, {
+   3.7476657896729307`*^9, 3.747665802835987*^9}, {3.7476661148383408`*^9, 
+   3.747666146807777*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"http://inspirehep.net/record/1700163\"\>", 
+   ",", "\<\"Jefferson Lab\"\>", ",", "\<\"2018-12-02\"\>", 
+   ",", "\<\"hep-lat, hep-ph, hep-th, nucl-th\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.747617172890216*^9, {3.747617210311111*^9, 3.747617226886794*^9}, 
+   3.747617444073785*^9, {3.7476175286454563`*^9, 3.747617544932955*^9}, 
+   3.747617590930437*^9, {3.747617668267335*^9, 3.747617725882003*^9}, 
+   3.747617823182253*^9, 3.747617892435985*^9, {3.747618081572625*^9, 
+   3.747618113513398*^9}, {3.7476182078798428`*^9, 3.747618219691621*^9}, {
+   3.747618259130083*^9, 3.747618317682254*^9}, {3.747618823941739*^9, 
+   3.747618867552032*^9}, {3.747618903533599*^9, 3.747618927937336*^9}, {
+   3.747665638814423*^9, 3.747665666002206*^9}, 3.747665744290433*^9, {
+   3.747665784636772*^9, 3.747665804513857*^9}, {3.7476661161103907`*^9, 
+   3.7476661472720547`*^9}, 3.7476662038948917`*^9, 3.7494830584195957`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"http://inspirehep.net/record/1699120\"\>", 
+   ",", "\<\"Freiburg U.\"\>", ",", "\<\"2018-11-30\"\>", 
+   ",", "\<\"hep-ph, hep-th\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.747617172890216*^9, {3.747617210311111*^9, 3.747617226886794*^9}, 
+   3.747617444073785*^9, {3.7476175286454563`*^9, 3.747617544932955*^9}, 
+   3.747617590930437*^9, {3.747617668267335*^9, 3.747617725882003*^9}, 
+   3.747617823182253*^9, 3.747617892435985*^9, {3.747618081572625*^9, 
+   3.747618113513398*^9}, {3.7476182078798428`*^9, 3.747618219691621*^9}, {
+   3.747618259130083*^9, 3.747618317682254*^9}, {3.747618823941739*^9, 
+   3.747618867552032*^9}, {3.747618903533599*^9, 3.747618927937336*^9}, {
+   3.747665638814423*^9, 3.747665666002206*^9}, 3.747665744290433*^9, {
+   3.747665784636772*^9, 3.747665804513857*^9}, {3.7476661161103907`*^9, 
+   3.7476661472720547`*^9}, 3.7476662038948917`*^9, 3.749483058422287*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+set the output filename and make the output file (excel format)\
+\>", "Subsubsection",
+ CellChangeTimes->{{3.751245370736302*^9, 3.751245398522973*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"xlsxfile", "=", 
+  "\"\<inspire_school_info_20181025.xlsx\>\""}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", "\[IndentingNewLine]", 
+  RowBox[{"xlsxfile", ",", "\[IndentingNewLine]", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"SchoolInfoExtract", "[", 
+      RowBox[{"infolist", "[", 
+       RowBox[{"[", "iinfo", "]"}], "]"}], " ", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"iinfo", ",", "1", ",", 
+       RowBox[{"infolist", "//", "Length"}]}], "}"}]}], "]"}]}], 
+  "\[IndentingNewLine]", "]"}]}], "Input",
+ CellChangeTimes->{{3.747617759495606*^9, 3.747617800427629*^9}, {
+  3.747617839914538*^9, 3.74761788539753*^9}, {3.747618323387681*^9, 
+  3.747618339193089*^9}, {3.747618573292286*^9, 3.7476185776852903`*^9}, {
+  3.747618698076804*^9, 3.74761870040908*^9}, {3.747666241827434*^9, 
+  3.747666290637581*^9}, {3.747718502630618*^9, 3.747718516572246*^9}, {
+  3.747718635528857*^9, 3.7477186414676647`*^9}, {3.747718882232757*^9, 
+  3.747718886263439*^9}, {3.749483065171266*^9, 3.7494830683715687`*^9}}],
+
+Cell[BoxData["\<\"inspire_school_info_20181025.xlsx\"\>"], "Output",
+ CellChangeTimes->{
+  3.747617800989645*^9, {3.7476178471187153`*^9, 3.747617886039111*^9}, {
+   3.747618324136993*^9, 3.7476183651570463`*^9}, 3.747618580006255*^9, 
+   3.7476187015231457`*^9, 3.747666216575307*^9, 3.747667589712503*^9, 
+   3.7477185410753603`*^9, 3.7477186130232153`*^9, 3.74771888767848*^9, 
+   3.749483396154479*^9, 3.749483493787846*^9, 3.749483722928945*^9}],
+
+Cell[BoxData["\<\"inspire_school_info_20181025.xlsx\"\>"], "Output",
+ CellChangeTimes->{
+  3.747617800989645*^9, {3.7476178471187153`*^9, 3.747617886039111*^9}, {
+   3.747618324136993*^9, 3.7476183651570463`*^9}, 3.747618580006255*^9, 
+   3.7476187015231457`*^9, 3.747666216575307*^9, 3.747667589712503*^9, 
+   3.7477185410753603`*^9, 3.7477186130232153`*^9, 3.74771888767848*^9, 
+   3.749483396154479*^9, 3.749483493787846*^9, 3.7494837230656557`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"SchoolInfoExtract", "[", 
+     RowBox[{"infolist", "[", 
+      RowBox[{"[", "iinfo", "]"}], "]"}], " ", "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"iinfo", ",", "1", ",", 
+      RowBox[{"(*", 
+       RowBox[{"infolist", "//", "Length"}], "*)"}], "75"}], "}"}]}], "]"}], "//",
+   "TableForm"}]], "Input",
+ CellChangeTimes->{{3.747718654723795*^9, 3.747718700268497*^9}, {
+  3.7477188750954313`*^9, 3.747718875474227*^9}, {3.749483084548321*^9, 
+  3.749483149856374*^9}, {3.749483277663828*^9, 3.7494832830366383`*^9}}],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"http://inspirehep.net/record/1700163\"\>", "\<\"Jefferson Lab\"\>", \
+"\<\"2018/12/02\"\>", "\<\"hep-lat, hep-ph, hep-th, nucl-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1700161\"\>", "\<\"Nordita\"\>", \
+"\<\"2018/12/01\"\>", "\<\"gr-qc, hep-lat, hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1699875\"\>", "\<\"EPFL, Lausanne, \
+LPTP\"\>", "\<\"2018/12/03\"\>", "\<\"astro-ph, hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1699821\"\>", "\<\"IIP, Brazil\"\>", "\
+\<\"2019/01/11\"\>", "\<\"hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1699642\"\>", "\<\"Munich, Tech. \
+U.\"\>", "\<\"2018/12/01\"\>", "\<\"hep-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1699427\"\>", "\<\"Trinity Coll., \
+Dublin\"\>", "\<\"2018/12/01\"\>", "\<\"hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1699365\"\>", "\<\"Manchester U.\"\>", \
+"\<\"2018/11/30\"\>", "\<\"hep-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1699364\"\>", "\<\"Ariel U. Ctr., \
+Samaria\"\>", "\<\"2019/05/01\"\>", "\<\"cond-mat, hep-lat, hep-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1699340\"\>", "\<\"Brookhaven Natl. \
+Lab.\"\>", "\<\"2018/11/15\"\>", "\<\"nucl-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1699339\"\>", "\<\"City Coll., \
+N.Y.Lehman Coll.Haifa U.\"\>", "\<\"2018/12/15\"\>", "\<\"hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1699297\"\>", "\<\"IPhT, Saclay\"\>", \
+"\<\"2018/12/01\"\>", "\<\"hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1699234\"\>", "\<\"Fudan U.\"\>", \
+"\<\"2018/12/16\"\>", "\<\"astro-ph, hep-lat, hep-ph, hep-th, nucl-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1699184\"\>", "\<\"TRIUMF\"\>", \
+"\<\"2018/11/15\"\>", "\<\"nucl-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1699182\"\>", "\<\"Lund U.\"\>", \
+"\<\"2018/12/01\"\>", "\<\"hep-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1699124\"\>", "\<\"Louvain U., \
+CP3\"\>", "\<\"2018/10/31\"\>", "\<\"astro-ph, hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1699121\"\>", "\<\"Freiburg U.\"\>", "\
+\<\"2018/11/30\"\>", "\<\"hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1699120\"\>", "\<\"Freiburg U.\"\>", "\
+\<\"2018/11/30\"\>", "\<\"hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1699114\"\>", "\<\"Munich, Tech. \
+U.\"\>", "\<\"2019/01/15\"\>", "\<\"hep-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1699110\"\>", "\<\"Hua-Zhong U. Sci. \
+Tech.\"\>", "\<\"2019/03/01\"\>", "\<\"astro-ph, gr-qc, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1699107\"\>", "\<\"Prague, Inst. Phys.\
+\"\>", "\<\"2018/11/01\"\>", "\<\"astro-ph, hep-ex, hep-lat, hep-ph, nucl-ex, \
+physics.acc-phys, physics.ins-det, physics-other\"\>"},
+    {"\<\"http://inspirehep.net/record/1698990\"\>", "\<\"Fermilab\"\>", \
+"\<\"2018/11/21\"\>", "\<\"astro-ph, hep-ex, hep-ph, physics-other\"\>"},
+    {"\<\"http://inspirehep.net/record/1698989\"\>", "\<\"Padua U.INFN, Padua\
+\"\>", "\<\"2018/12/01\"\>", "\<\"astro-ph, hep-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1698861\"\>", "\<\"Old Dominion U. \
+(main)\"\>", "\<\"2018/11/09\"\>", "\<\"nucl-ex, nucl-th, physics-other, \
+quant\"\>"},
+    {"\<\"http://inspirehep.net/record/1698860\"\>", "\<\"Okinawa Inst. Sci. \
+Tech.\"\>", "\<\"2018/12/21\"\>", "\<\"gr-qc, hep-th, math-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1698858\"\>", "\<\"Perimeter Inst. \
+Theor. Phys.U. Toronto (main)\"\>", "\<\"2018/12/01\"\>", "\<\"hep-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1698849\"\>", "\<\"Oregon U.\"\>", "\<\
+\"2018/11/30\"\>", "\<\"hep-th, hep-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1698845\"\>", "\<\"U. Colorado, \
+Boulder\"\>", "\<\"2018/12/03\"\>", "\<\"hep-lat, hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1698844\"\>", "\<\"Stockholm U.\"\>", \
+"\<\"2018/12/01\"\>", "\<\"hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1698837\"\>", "\<\"Johns Hopkins \
+U.\"\>", "\<\"2018/12/01\"\>", "\<\"hep-th, gr-qc\"\>"},
+    {"\<\"http://inspirehep.net/record/1698792\"\>", "\<\"Kyoto U., Yukawa \
+Inst., Kyoto\"\>", "\<\"2018/12/26\"\>", "\<\"astro-ph, gr-qc, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1698370\"\>", "\<\"Maryland U., \
+College Park\"\>", "\<\"2018/11/30\"\>", "\<\"cond-mat, gr-qc, hep-lat, \
+hep-ph, hep-th, nucl-th, quant\"\>"},
+    {"\<\"http://inspirehep.net/record/1698362\"\>", "\<\"University Coll. \
+London\"\>", "\<\"2018/11/22\"\>", "\<\"hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1698355\"\>", "\<\"Goethe U., \
+Frankfurt (main)\"\>", "\<\"2018/12/10\"\>", "\<\"nucl-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1698313\"\>", "\<\"Wurzburg U.\"\>", "\
+\<\"2018/11/10\"\>", "\<\"hep-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1698171\"\>", "\<\"KU Leuven, Dept. \
+Phys. Astron.\"\>", "\<\"2019/01/14\"\>", "\<\"astro-ph, gr-qc, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1698113\"\>", "\<\"Munich, Max Planck \
+Inst.\"\>", "\<\"2018/12/13\"\>", "\<\"astro-ph, hep-ph, hep-th, math-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1698070\"\>", "\<\"Tsinghua U., \
+Beijing\"\>", "\<\"2018/12/01\"\>", "\<\"hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1697942\"\>", "\<\"Madrid, IFT\"\>", "\
+\<\"2018/12/01\"\>", "\<\"astro-ph, hep-lat, hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1697760\"\>", "\<\"Milan U.\"\>", \
+"\<\"2018/12/10\"\>", "\<\"cs, hep-ph, hep-th, math-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1697759\"\>", "\<\"Beijing, Inst. \
+Theor. Phys.\"\>", "\<\"2018/12/15\"\>", "\<\"astro-ph, cond-mat, gr-qc, \
+hep-ex, hep-lat, hep-ph, hep-th, math-ph, nucl-ex, nucl-th, physics.acc-phys, \
+physics.ins-det, physics-other, quant\"\>"},
+    {"\<\"http://inspirehep.net/record/1697657\"\>", "\<\"Queen's U., \
+Kingston\"\>", "\<\"2018/11/30\"\>", "\<\"astro-ph, hep-ex, hep-ph, \
+physics.ins-det\"\>"},
+    {"\<\"http://inspirehep.net/record/1697654\"\>", "\<\"New York U., CCPP\"\
+\>", "\<\"2018/11/25\"\>", "\<\"gr-qc, hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1697651\"\>", "\<\"Romanian Inst. Sci. \
+Tech.\"\>", "\<\"2018/11/01\"\>", "\<\"astro-ph, cond-mat, cs, gr-qc, hep-ex, \
+hep-lat, hep-ph, hep-th, math, math-ph, nucl-ex, nucl-th, physics.acc-phys, \
+physics.ins-det, physics-other, quant\"\>"},
+    {"\<\"http://inspirehep.net/record/1697650\"\>", "\<\"Florida U., Inst. \
+Fund. Theor.\"\>", "\<\"2018/12/01\"\>", "\<\"astro-ph, hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1697569\"\>", "\<\"TIFR, Mumbai, Dept. \
+Theor. Phys.\"\>", "\<\"2018/11/15\"\>", "\<\"hep-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1697452\"\>", "\<\"Nankai U.\"\>", "\<\
+\"2019/02/01\"\>", "\<\"hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1697379\"\>", "\<\"Taiwan, Natl. \
+Taiwan U.\"\>", "\<\"2018/12/01\"\>", "\<\"astro-ph, gr-qc, hep-ex, hep-ph, \
+hep-th, quant\"\>"},
+    {"\<\"http://inspirehep.net/record/1697378\"\>", "\<\"Harish-Chandra Res. \
+Inst.\"\>", "\<\"2018/12/15\"\>", "\<\"hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1697365\"\>", "\<\"Zhejiang U., Inst. \
+Mod. Phys.\"\>", "\<\"2019/04/08\"\>", "\<\"hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1697270\"\>", "\<\"Yale U.\"\>", \
+"\<\"2018/11/01\"\>", "\<\"astro-ph, cond-mat, cs, gr-qc, hep-ex, hep-lat, \
+hep-ph, hep-th, math, math-ph, nucl-ex, nucl-th, physics.acc-phys, \
+physics.ins-det, physics-other, quant-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1697269\"\>", "\<\"Florida State \
+U.\"\>", "\<\"2018/12/07\"\>", "\<\"astro-ph, hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1697229\"\>", "\<\"Eotvos U.\"\>", "\<\
+\"2018/12/01\"\>", "\<\"hep-ex, hep-ph, nucl-ex, nucl-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1697094\"\>", "\<\"Jefferson Lab\"\>", \
+"\<\"2018/12/02\"\>", "\<\"hep-ph, nucl-th, hep-lat\"\>"},
+    {"\<\"http://inspirehep.net/record/1697068\"\>", "\<\"Warsaw U. of \
+Tech.\"\>", "\<\"2018/12/01\"\>", "\<\"astro-ph, cond-mat, nucl-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1697061\"\>", "\<\"INFN, Pavia\"\>", "\
+\<\"2018/11/15\"\>", "\<\"hep-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1696932\"\>", "\<\"ICTP-SAIFR, Sao \
+PauloPerimeter Inst. Theor. Phys.\"\>", "\<\"2018/12/01\"\>", "\<\"astro-ph, \
+cond-mat, cs, gr-qc, hep-ex, hep-ph, hep-th, math, math-ph, nucl-th, \
+physics-other, quant-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1696871\"\>", "\<\"Helsinki U.\"\>", "\
+\<\"2018/11/15\"\>", "\<\"astro-ph, hep-lat, hep-ph, nucl-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1696867\"\>", "\<\"APCTP, Pohang\"\>", \
+"\<\"2018/11/15\"\>", "\<\"astro-ph, cond-mat, cs, hep-ex, hep-lat, hep-ph, \
+nucl-ex, physics.acc-phys, physics.ins-det, physics-other, quant-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1696785\"\>", "\<\"Chile U., \
+BeauchefU. Chile, Santiago\"\>", "\<\"2018/10/10\"\>", "\<\"astro-ph, \
+hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1696782\"\>", "\<\"Oxford U.\"\>", "\<\
+\"2018/12/03\"\>", "\<\"hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1696669\"\>", "\<\"ICC, Barcelona U.\"\
+\>", "\<\"2018/11/30\"\>", "\<\"gr-qc, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1696612\"\>", "\<\"INFN Trieste\"\>", \
+"\<\"2018/11/15\"\>", "\<\"hep-th, math-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1696605\"\>", "\<\"Pennsylvania \
+U.\"\>", "\<\"2018/12/01\"\>", "\<\"astro-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1696603\"\>", "\<\"Zurich U.\"\>", "\<\
+\"2018/12/01\"\>", "\<\"hep-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1696602\"\>", "\<\"Dresden, Max Planck \
+Inst.\"\>", "\<\"2018/11/15\"\>", "\<\"cond-mat, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1696574\"\>", "\<\"Sydney U.\"\>", "\<\
+\"2018/10/31\"\>", "\<\"astro-ph, hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1696449\"\>", "\<\"ICTP-SAIFR, Sao \
+Paulo\"\>", "\<\"2018/12/01\"\>", "\<\"astro-ph, cond-mat, cs, gr-qc, hep-ex, \
+hep-ph, hep-th, math, math-ph, nucl-th, physics-other, quant\"\>"},
+    {"\<\"http://inspirehep.net/record/1696424\"\>", "\<\"Minnesota U.\"\>", \
+"\<\"2018/12/01\"\>", "\<\"astro-ph, hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1696417\"\>", "\<\"Turin U.\"\>", \
+"\<\"2018/12/01\"\>", "\<\"hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1696416\"\>", "\<\"Kansas U.\"\>", "\<\
+\"2018/10/15\"\>", "\<\"hep-ph, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1696381\"\>", "\<\"Frascati\"\>", \
+"\<\"2018/11/15\"\>", "\<\"hep-ph, astro-ph\"\>"},
+    {"\<\"http://inspirehep.net/record/1696375\"\>", "\<\"Shanghai Jiaotong \
+U.\"\>", "\<\"2018/12/31\"\>", "\<\"cond-mat, hep-lat, hep-th, quant\"\>"},
+    {"\<\"http://inspirehep.net/record/1696374\"\>", "\<\"Potsdam, Max Planck \
+Inst.\"\>", "\<\"2018/12/01\"\>", "\<\"astro-ph, gr-qc, hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1696297\"\>", "\<\"APC, Paris\"\>", \
+"\<\"2018/11/30\"\>", "\<\"hep-th\"\>"},
+    {"\<\"http://inspirehep.net/record/1696292\"\>", "\<\"Pennsylvania \
+U.\"\>", "\<\"2018/12/01\"\>", "\<\"hep-th\"\>"}
+   },
+   GridBoxAlignment->{
+    "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+     "RowsIndexed" -> {}},
+   GridBoxSpacings->{"Columns" -> {
+       Offset[0.27999999999999997`], {
+        Offset[2.0999999999999996`]}, 
+       Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+       Offset[0.2], {
+        Offset[0.4]}, 
+       Offset[0.2]}, "RowsIndexed" -> {}}],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{
+  3.7477185868813562`*^9, {3.747718659871975*^9, 3.747718700944499*^9}, {
+   3.7477188727580767`*^9, 3.747718876015316*^9}, {3.749483078703106*^9, 
+   3.7494831506310377`*^9}, {3.749483274909895*^9, 3.749483283717143*^9}, 
+   3.7494833824706497`*^9}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1535, 848},
+WindowMargins->{{0, Automatic}, {0, 28}},
+FrontEndVersion->"11.0 for Linux x86 (64-bit) (July 28, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 44019, 1063, 5873, "Input",
+ InitializationCell->True],
+Cell[CellGroupData[{
+Cell[44602, 1087, 134, 1, 35, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[44761, 1092, 175, 3, 35, "Input"],
+Cell[44939, 1097, 268, 3, 32, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[45244, 1105, 123, 2, 32, "Input"],
+Cell[45370, 1109, 245, 3, 32, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[45652, 1117, 218, 4, 33, "Input"],
+Cell[45873, 1123, 253, 4, 32, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46175, 1133, 119, 1, 35, "Subsubsection"],
+Cell[46297, 1136, 1130, 29, 162, "Input"],
+Cell[CellGroupData[{
+Cell[47452, 1169, 128, 2, 32, "Input"],
+Cell[47583, 1173, 168, 3, 30, "Output"]
+}, Open  ]],
+Cell[47766, 1179, 826, 16, 35, "Input"],
+Cell[CellGroupData[{
+Cell[48617, 1199, 152, 3, 32, "Input"],
+Cell[48772, 1204, 1098, 15, 385, "Output"]
+}, Open  ]],
+Cell[49885, 1222, 3500, 77, 399, "Input"],
+Cell[CellGroupData[{
+Cell[53410, 1303, 204, 4, 32, "Input"],
+Cell[53617, 1309, 1062, 15, 385, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[54716, 1329, 1107, 18, 59, "Input"],
+Cell[55826, 1349, 973, 15, 32, "Output"],
+Cell[56802, 1366, 951, 15, 32, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[57802, 1387, 162, 3, 35, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[57989, 1394, 1054, 20, 125, "Input"],
+Cell[59046, 1416, 450, 6, 32, "Output"],
+Cell[59499, 1424, 452, 6, 32, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[59988, 1435, 592, 14, 35, "Input"],
+Cell[60583, 1451, 11909, 185, 1437, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
